@@ -11,17 +11,11 @@
     "error-handling"
   ],
   "extra": {
-    "coveredLanguages": [
-      "C#",
-      "Java",
-      "C++",
-      "C",
-      "VB.Net",
-      "PHP",
-      "Python"
-    ],
     "replacementRules": [
-      
+
+    ],
+    "legacyKeys": [
+
     ]
   },
   "defaultSeverity": "Major",
@@ -31,12 +25,10 @@
   "securityStandards": {
     "CWE": [
       397
-    ],
-    "CERT": [
-      "ERR07-J."
     ]
   },
   "defaultQualityProfiles": [
     "Sonar way"
-  ]
+  ],
+  "quickfix": "unknown"
 }

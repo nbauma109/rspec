@@ -1,3 +1,7 @@
 {
-  
+  "tags": [
+    "convention",
+    "cppcoreguidelines"
+  ],
+  "quickfix": "covered"
 }

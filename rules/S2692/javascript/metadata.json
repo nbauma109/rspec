@@ -1,7 +1,7 @@
 {
   "defaultSeverity": "Major",
   "defaultQualityProfiles": [
-    "Sonar way recommended",
     "Sonar way"
-  ]
+  ],
+  "scope": "Main"
 }

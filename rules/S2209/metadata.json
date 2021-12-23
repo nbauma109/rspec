@@ -10,13 +10,11 @@
     "pitfall"
   ],
   "extra": {
-    "coveredLanguages": [
-      "Java",
-      "C++",
-      "C"
-    ],
     "replacementRules": [
-      
+
+    ],
+    "legacyKeys": [
+
     ]
   },
   "defaultSeverity": "Major",
@@ -25,5 +23,6 @@
   "scope": "Main",
   "defaultQualityProfiles": [
     "Sonar way"
-  ]
+  ],
+  "quickfix": "unknown"
 }

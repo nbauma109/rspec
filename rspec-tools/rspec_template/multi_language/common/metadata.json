@@ -8,12 +8,12 @@
   },
   "tags": [
   ],
-  "extra": [
-    "coveredLanguages": []
-  ],
+  "extra": {
+  },
   "defaultSeverity": "Major",
   "ruleSpecification": "RSPEC-${RSPEC_ID}",
   "sqKey": "S${RSPEC_ID}",
   "scope": "All",
-  "qualityProfiles": ["Sonar way"]
+  "defaultQualityProfiles": ["Sonar way"],
+  "quickfix": "unknown"
 }

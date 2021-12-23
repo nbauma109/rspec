@@ -1,6 +1,4 @@
 {
-  "sqKey": "TooManyBreakOrContinueInLoop",
-  "defaultQualityProfiles": [
-    
-  ]
+  "defaultQualityProfiles": [],
+  "scope": "Main"
 }

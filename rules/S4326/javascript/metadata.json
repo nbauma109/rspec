@@ -10,20 +10,19 @@
     "redundant"
   ],
   "extra": {
-    "coveredLanguages": [
-      "TypeScript",
-      "JavaScript"
-    ],
     "replacementRules": [
-      
+
+    ],
+    "legacyKeys": [
+
     ]
   },
   "defaultSeverity": "Minor",
   "ruleSpecification": "RSPEC-4326",
   "sqKey": "S4326",
-  "scope": "All",
+  "scope": "Main",
   "defaultQualityProfiles": [
-    "Sonar way recommended",
     "Sonar way"
-  ]
+  ],
+  "quickfix": "unknown"
 }

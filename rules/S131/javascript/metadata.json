@@ -1,6 +1,4 @@
 {
-  "sqKey": "SwitchWithoutDefault",
-  "defaultQualityProfiles": [
-    
-  ]
+  "defaultQualityProfiles": [],
+  "scope": "Main"
 }

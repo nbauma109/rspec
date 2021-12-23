@@ -11,20 +11,19 @@
     "confusing"
   ],
   "extra": {
-    "coveredLanguages": [
-      "TypeScript",
-      "JavaScript"
-    ],
     "replacementRules": [
-      
+
+    ],
+    "legacyKeys": [
+
     ]
   },
   "defaultSeverity": "Major",
   "ruleSpecification": "RSPEC-4624",
   "sqKey": "S4624",
-  "scope": "All",
+  "scope": "Main",
   "defaultQualityProfiles": [
-    "Sonar way recommended",
     "Sonar way"
-  ]
+  ],
+  "quickfix": "unknown"
 }

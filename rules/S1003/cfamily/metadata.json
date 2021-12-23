@@ -12,12 +12,11 @@
     "suspicious"
   ],
   "extra": {
-    "coveredLanguages": [
-      "C++",
-      "C"
-    ],
     "replacementRules": [
-      
+
+    ],
+    "legacyKeys": [
+
     ]
   },
   "defaultSeverity": "Critical",
@@ -26,5 +25,6 @@
   "scope": "Main",
   "defaultQualityProfiles": [
     "Sonar way"
-  ]
+  ],
+  "quickfix": "unknown"
 }

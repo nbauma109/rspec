@@ -12,12 +12,11 @@
     "clumsy"
   ],
   "extra": {
-    "coveredLanguages": [
-      "C++",
-      "C"
-    ],
     "replacementRules": [
-      
+
+    ],
+    "legacyKeys": [
+
     ]
   },
   "defaultSeverity": "Minor",
@@ -27,5 +26,6 @@
   "defaultQualityProfiles": [
     "Sonar way",
     "MISRA C++ 2008 recommended"
-  ]
+  ],
+  "quickfix": "unknown"
 }

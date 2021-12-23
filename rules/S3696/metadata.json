@@ -11,14 +11,11 @@
     "api-design"
   ],
   "extra": {
-    "coveredLanguages": [
-      "TypeScript",
-      "C++",
-      "C",
-      "JavaScript"
-    ],
     "replacementRules": [
-      
+
+    ],
+    "legacyKeys": [
+
     ]
   },
   "defaultSeverity": "Major",
@@ -27,5 +24,6 @@
   "scope": "All",
   "defaultQualityProfiles": [
     "Sonar way"
-  ]
+  ],
+  "quickfix": "unknown"
 }

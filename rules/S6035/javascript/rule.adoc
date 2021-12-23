@@ -1,0 +1,15 @@
+include::../description_with_reference_to_s5998.adoc[]
+
+== Noncompliant Code Example
+
+----
+/a|b|c/; // Noncompliant
+----
+
+== Compliant Solution
+
+----
+/[abc]/;
+// or
+/[a-c]/;
+----

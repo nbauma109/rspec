@@ -10,15 +10,11 @@
     "confusing"
   ],
   "extra": {
-    "coveredLanguages": [
-      "C#",
-      "Java",
-      "C++",
-      "C",
-      "VB.Net"
-    ],
     "replacementRules": [
-      
+
+    ],
+    "legacyKeys": [
+
     ]
   },
   "defaultSeverity": "Blocker",
@@ -27,5 +23,6 @@
   "scope": "Main",
   "defaultQualityProfiles": [
     "Sonar way"
-  ]
+  ],
+  "quickfix": "unknown"
 }
