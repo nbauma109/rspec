@@ -1,0 +1,29 @@
+{
+  "title": "Record IDs should not be hardcoded",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Blocker",
+  "ruleSpecification": "RSPEC-5379",
+  "sqKey": "S5379",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "apex"
+  ],
+  "allKeys": [
+    "S5379"
+  ],
+  "branch": "master"
+}

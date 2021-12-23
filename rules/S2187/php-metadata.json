@@ -1,0 +1,35 @@
+{
+  "title": "TestCases should contain tests",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "tests",
+    "unused",
+    "confusing"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Blocker",
+  "ruleSpecification": "RSPEC-2187",
+  "sqKey": "S2187",
+  "scope": "Tests",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "csharp",
+    "java",
+    "php"
+  ],
+  "allKeys": [
+    "S2187"
+  ],
+  "branch": "master"
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Intermediate Stream methods should not be left unused",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "java8"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-3958",
+  "sqKey": "S3958",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "java"
+  ],
+  "allKeys": [
+    "S3958"
+  ],
+  "branch": "master"
+}

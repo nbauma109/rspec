@@ -1,0 +1,31 @@
+{
+  "title": "Packages containing only \"package-info.java\" should be removed",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "2min"
+  },
+  "tags": [
+    "unused"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Minor",
+  "ruleSpecification": "RSPEC-4032",
+  "sqKey": "S4032",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "java"
+  ],
+  "allKeys": [
+    "S4032"
+  ],
+  "branch": "master"
+}

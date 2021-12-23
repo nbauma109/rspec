@@ -1,0 +1,44 @@
+{
+  "title": "Track comments matching a regular expression",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "0min"
+  },
+  "tags": [],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "comment-regular-expression",
+      "CommentRegularExpression",
+      "CommentRegularExpressionCheckPlSql"
+    ]
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-124",
+  "sqKey": "S124",
+  "scope": "Main",
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cfamily",
+    "cobol",
+    "csharp",
+    "flex",
+    "java",
+    "javascript",
+    "pli",
+    "plsql",
+    "python",
+    "rpg",
+    "vbnet"
+  ],
+  "allKeys": [
+    "CommentRegularExpression",
+    "comment-regular-expression",
+    "CommentRegularExpressionCheckPlSql",
+    "S124"
+  ],
+  "branch": "master"
+}

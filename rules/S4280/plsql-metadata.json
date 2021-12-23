@@ -1,0 +1,33 @@
+{
+  "title": "Labels should not be reused in inner scopes",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "1h"
+  },
+  "tags": [
+    "pitfall"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "NameReusedInInnerScope"
+    ]
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-4280",
+  "sqKey": "NameReusedInInnerScope",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "plsql"
+  ],
+  "allKeys": [
+    "NameReusedInInnerScope"
+  ],
+  "branch": "master"
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Assignments of default values for variables should be located in the initialization section",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-1060",
+  "sqKey": "S1060",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "plsql"
+  ],
+  "allKeys": [
+    "S1060"
+  ],
+  "branch": "master"
+}

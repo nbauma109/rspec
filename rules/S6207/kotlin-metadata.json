@@ -1,0 +1,30 @@
+{
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-6207",
+  "sqKey": "S6207",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "title": "Redundant methods should be avoided in data classes",
+  "all_languages": [
+    "java",
+    "kotlin"
+  ],
+  "allKeys": [
+    "S6207"
+  ],
+  "branch": "master"
+}

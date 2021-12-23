@@ -1,0 +1,62 @@
+{
+  "title": "Boolean expressions should not be gratuitous",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "cwe",
+    "based-on-misra",
+    "cert",
+    "misra-c2004",
+    "suspicious",
+    "redundant",
+    "misra-c2012"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-2589",
+  "sqKey": "S2589",
+  "scope": "All",
+  "securityStandards": {
+    "CERT": [
+      "MSC12-C."
+    ],
+    "CWE": [
+      489,
+      571,
+      570
+    ]
+  },
+  "defaultQualityProfiles": [
+    "Sonar way",
+    "MISRA C++ 2008 recommended"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "abap",
+    "cfamily",
+    "cobol",
+    "csharp",
+    "flex",
+    "java",
+    "javascript",
+    "php",
+    "pli",
+    "plsql",
+    "python",
+    "rpg",
+    "swift",
+    "tsql",
+    "vbnet"
+  ],
+  "allKeys": [
+    "S2589"
+  ],
+  "branch": "master"
+}

@@ -1,0 +1,48 @@
+{
+  "title": "Unread \"private\" fields should be removed",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "cwe",
+    "cert",
+    "unused"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Critical",
+  "ruleSpecification": "RSPEC-4487",
+  "sqKey": "S4487",
+  "scope": "All",
+  "securityStandards": {
+    "CERT": [
+      "MSC13-C.",
+      "MSC56-J."
+    ],
+    "CWE": [
+      563
+    ]
+  },
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cfamily",
+    "csharp",
+    "go",
+    "java",
+    "javascript",
+    "python",
+    "swift"
+  ],
+  "allKeys": [
+    "S4487"
+  ],
+  "branch": "master"
+}

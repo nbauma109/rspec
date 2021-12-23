@@ -1,0 +1,37 @@
+{
+  "title": "\"toString()\" should never be called on a String object",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "2min"
+  },
+  "tags": [
+    "finding",
+    "clumsy"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Minor",
+  "ruleSpecification": "RSPEC-1858",
+  "sqKey": "S1858",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "csharp",
+    "flex",
+    "java",
+    "php",
+    "vb6",
+    "vbnet"
+  ],
+  "allKeys": [
+    "S1858"
+  ],
+  "branch": "master"
+}

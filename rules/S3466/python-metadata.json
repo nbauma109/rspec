@@ -1,0 +1,34 @@
+{
+  "title": "Optional parameters should be passed to \"base\" calls",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-3466",
+  "sqKey": "S3466",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cfamily",
+    "csharp",
+    "php",
+    "python",
+    "swift",
+    "vbnet"
+  ],
+  "allKeys": [
+    "S3466"
+  ],
+  "branch": "master"
+}

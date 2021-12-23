@@ -1,0 +1,29 @@
+{
+  "title": "Results of \"in\" and \"instanceof\" should be negated rather than operands",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "1min"
+  },
+  "tags": [],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Critical",
+  "ruleSpecification": "RSPEC-3812",
+  "sqKey": "S3812",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "javascript"
+  ],
+  "allKeys": [
+    "S3812"
+  ],
+  "branch": "master"
+}

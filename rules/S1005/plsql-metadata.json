@@ -1,0 +1,38 @@
+{
+  "title": "Procedures should not contain \"RETURN\" statements",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "1h"
+  },
+  "tags": [
+    "brain-overload"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "FunctionSinglePointOfExit",
+      "ReturnInProcedureCheck"
+    ]
+  },
+  "defaultSeverity": "Minor",
+  "ruleSpecification": "RSPEC-1005",
+  "sqKey": "ReturnInProcedureCheck",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cfamily",
+    "flex",
+    "plsql"
+  ],
+  "allKeys": [
+    "FunctionSinglePointOfExit",
+    "ReturnInProcedureCheck",
+    "S1005"
+  ],
+  "branch": "master"
+}

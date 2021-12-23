@@ -1,0 +1,69 @@
+{
+  "title": "Allowing requests with excessive content length is security-sensitive",
+  "type": "SECURITY_HOTSPOT",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "cwe",
+    "owasp-a6",
+    "express.js"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-5693",
+  "sqKey": "S5693",
+  "scope": "Main",
+  "securityStandards": {
+    "CWE": [
+      400,
+      770
+    ],
+    "OWASP": [
+      "A6"
+    ],
+    "OWASP Top 10 2021": [
+      "A5"
+    ]
+  },
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "all_languages": [
+    "abap",
+    "apex",
+    "cfamily",
+    "cobol",
+    "csharp",
+    "css",
+    "flex",
+    "go",
+    "html",
+    "java",
+    "javascript",
+    "kotlin",
+    "php",
+    "pli",
+    "plsql",
+    "python",
+    "rpg",
+    "ruby",
+    "rust",
+    "scala",
+    "solidity",
+    "swift",
+    "tsql",
+    "vb6",
+    "vbnet",
+    "xml"
+  ],
+  "allKeys": [
+    "S5693"
+  ],
+  "branch": "master"
+}

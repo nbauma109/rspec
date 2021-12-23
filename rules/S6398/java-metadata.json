@@ -1,0 +1,41 @@
+{
+  "title": "JSON operations should not be vulnerable to injection attacks",
+  "type": "VULNERABILITY",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "20min"
+  },
+  "tags": [
+    "cwe",
+    "owasp-a1"
+  ],
+  "securityStandards": {
+    "CWE": [
+      20,
+      76
+    ],
+    "OWASP": [
+      "A1"
+    ],
+    "OWASP Top 10 2021": [
+      "A3"
+    ]
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-6398",
+  "sqKey": "S6398",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "java"
+  ],
+  "allKeys": [
+    "S6398"
+  ],
+  "prUrl": "https://github.com/SonarSource/rspec/pull/656",
+  "branch": "rule/add-RSPEC-S6398"
+}

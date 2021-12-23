@@ -1,0 +1,32 @@
+{
+  "title": "Size argument of memory functions should be consistent",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "suspicious"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-5278",
+  "sqKey": "S5278",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way",
+    "MISRA C++ 2008 recommended"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cfamily"
+  ],
+  "allKeys": [
+    "S5278"
+  ],
+  "branch": "master"
+}

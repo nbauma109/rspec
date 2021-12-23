@@ -1,0 +1,32 @@
+{
+  "title": "\"<stdio.h>\" should not be used in production code",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "4h"
+  },
+  "tags": [
+    "based-on-misra",
+    "lock-in"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "PPIncludeStdio"
+    ]
+  },
+  "defaultSeverity": "Critical",
+  "ruleSpecification": "RSPEC-988",
+  "sqKey": "PPIncludeStdio",
+  "scope": "Main",
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cfamily"
+  ],
+  "allKeys": [
+    "PPIncludeStdio"
+  ],
+  "branch": "master"
+}

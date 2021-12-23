@@ -1,0 +1,65 @@
+<div class="paragraph">
+<p>Shared coding conventions allow teams to collaborate efficiently. This rule checks that all enumeration values match a provided regular expression.</p>
+</div>
+<div class="sect1">
+<h2 id="_noncompliant_code_example">Noncompliant Code Example</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>With default provided regular expression:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>enum SomeEnumeration {
+    some  // Non-Compliant
+};</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_compliant_solution">Compliant Solution</h2>
+<div class="sectionbody">
+<div class="listingblock">
+<div class="content">
+<pre>enum SomeEnumeration {
+    SOME
+};</pre>
+</div>
+</div>
+<hr/>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_implementation_specification">Implementation Specification</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>(visible only on this page)</p>
+</div>
+<div class="sect2">
+<h3 id="_message">Message</h3>
+<div class="paragraph">
+<p>key: format</p>
+</div>
+<div class="paragraph">
+<p>description: Regular expression used to check the enumeration value names against.</p>
+</div>
+<div class="paragraph">
+<p>default: ^[A-Z][A-Z_0-9]*$</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_parameters">Parameters</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>key = format
+description: Regular expression used to check the enumeration value names against.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>default: ^([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$</p>
+</div>
+</div>
+</div>
+</div>

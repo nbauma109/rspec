@@ -1,0 +1,43 @@
+<div class="paragraph">
+<p>An <code>re.sub</code> call always performs an evaluation of the first argument as a regular expression, even if no regular expression features were used. This has a significant performance cost and therefore should be used with care.</p>
+</div>
+<div class="paragraph">
+<p>When <code>re.sub</code> is used, the first argument should be a real regular expression. If it&#8217;s not the case, <code>str.replace</code> does exactly the same thing as <code>re.sub</code> without the performance drawback of the regex.</p>
+</div>
+<div class="paragraph">
+<p>This rule raises an issue for each <code>re.sub</code> used with a simple string as first argument which doesn&#8217;t contains special regex character or pattern.</p>
+</div>
+<div class="sect1">
+<h2 id="_noncompliant_code_example">Noncompliant Code Example</h2>
+<div class="sectionbody">
+<div class="listingblock">
+<div class="content">
+<pre>input = "Bob is a Bird... Bob is a Plane... Bob is Superman!"
+changed = re.sub("Bob is", "It's", input) # Noncompliant
+changed = re.sub("\.\.\.", ";", changed) # Noncompliant</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_compliant_solution">Compliant Solution</h2>
+<div class="sectionbody">
+<div class="listingblock">
+<div class="content">
+<pre>input = "Bob is a Bird... Bob is a Plane... Bob is Superman!"
+changed = str.replace("Bob is", "It's", input)
+changed = str.replace("...", ";", changed)</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Or, with a regex:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>input = "Bob is a Bird... Bob is a Plane... Bob is Superman!"
+changed = re.sub(r"\w*\sis", "It's", input)
+changed = re.sub(r"\.{3}", ";", changed)</pre>
+</div>
+</div>
+</div>
+</div>

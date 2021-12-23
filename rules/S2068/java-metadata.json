@@ -1,0 +1,69 @@
+{
+  "title": "Hard-coded credentials are security-sensitive",
+  "type": "SECURITY_HOTSPOT",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "30min"
+  },
+  "tags": [
+    "cwe",
+    "cert",
+    "sans-top25-porous",
+    "owasp-a2"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Blocker",
+  "ruleSpecification": "RSPEC-2068",
+  "sqKey": "S2068",
+  "scope": "Main",
+  "securityStandards": {
+    "CERT": [
+      "MSC03-J."
+    ],
+    "CWE": [
+      798,
+      259
+    ],
+    "OWASP": [
+      "A2"
+    ],
+    "OWASP Top 10 2021": [
+      "A7"
+    ]
+  },
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "all_languages": [
+    "abap",
+    "apex",
+    "cfamily",
+    "cobol",
+    "csharp",
+    "flex",
+    "go",
+    "java",
+    "javascript",
+    "kotlin",
+    "php",
+    "pli",
+    "plsql",
+    "python",
+    "rpg",
+    "ruby",
+    "scala",
+    "swift",
+    "tsql",
+    "vb6",
+    "vbnet",
+    "xml"
+  ],
+  "allKeys": [
+    "S2068"
+  ],
+  "branch": "master"
+}

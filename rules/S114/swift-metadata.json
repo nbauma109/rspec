@@ -1,0 +1,39 @@
+{
+  "title": "Protocol names should comply with a naming convention",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "convention"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "InterfaceName"
+    ]
+  },
+  "defaultSeverity": "Minor",
+  "ruleSpecification": "RSPEC-114",
+  "sqKey": "S114",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "abap",
+    "cfamily",
+    "java",
+    "php",
+    "swift",
+    "vbnet"
+  ],
+  "allKeys": [
+    "S114",
+    "InterfaceName"
+  ],
+  "branch": "master"
+}

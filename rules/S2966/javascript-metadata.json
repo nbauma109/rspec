@@ -1,0 +1,30 @@
+{
+  "title": "Non-null assertions should not be used",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "15min"
+  },
+  "tags": [
+    "unpredictable"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Minor",
+  "ruleSpecification": "RSPEC-2966",
+  "sqKey": "S2966",
+  "scope": "Main",
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "javascript",
+    "swift"
+  ],
+  "allKeys": [
+    "S2966"
+  ],
+  "branch": "master"
+}

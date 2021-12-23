@@ -1,0 +1,34 @@
+{
+  "title": "View data dictionaries should be replaced by models",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "3h"
+  },
+  "tags": [
+    "design",
+    "bad-practice",
+    "pitfall"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-5770",
+  "sqKey": "S5770",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "csharp",
+    "vbnet"
+  ],
+  "allKeys": [
+    "S5770"
+  ],
+  "branch": "master"
+}

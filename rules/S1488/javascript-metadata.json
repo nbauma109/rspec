@@ -1,0 +1,41 @@
+{
+  "title": "Local variables should not be declared and then immediately returned or thrown",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "2min"
+  },
+  "tags": [
+    "clumsy"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Minor",
+  "ruleSpecification": "RSPEC-1488",
+  "sqKey": "S1488",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cfamily",
+    "cobol",
+    "csharp",
+    "flex",
+    "java",
+    "javascript",
+    "php",
+    "pli",
+    "plsql",
+    "python",
+    "vbnet"
+  ],
+  "allKeys": [
+    "S1488"
+  ],
+  "branch": "master"
+}

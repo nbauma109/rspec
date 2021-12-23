@@ -1,0 +1,33 @@
+{
+  "title": "\"CROSS JOIN\" queries should not be used",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "1h"
+  },
+  "tags": [
+    "suspicious"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "CrossJoinUsageCheck"
+    ]
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-2457",
+  "sqKey": "CrossJoinUsageCheck",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "plsql"
+  ],
+  "allKeys": [
+    "CrossJoinUsageCheck"
+  ],
+  "branch": "master"
+}

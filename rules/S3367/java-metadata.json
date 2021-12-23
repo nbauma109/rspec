@@ -1,0 +1,46 @@
+{
+  "title": "\"ActionForm\" beans should extend validator classes",
+  "type": "VULNERABILITY",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "cwe",
+    "owasp-a1",
+    "struts",
+    "owasp-a7"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Critical",
+  "ruleSpecification": "RSPEC-3367",
+  "sqKey": "S3367",
+  "scope": "Main",
+  "securityStandards": {
+    "CWE": [
+      104
+    ],
+    "OWASP": [
+      "A1",
+      "A7"
+    ],
+    "OWASP Top 10 2021": [
+      "A3"
+    ]
+  },
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "java"
+  ],
+  "allKeys": [
+    "S3367"
+  ],
+  "branch": "master"
+}

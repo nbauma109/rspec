@@ -1,0 +1,31 @@
+{
+  "title": "Deprecated system tables and views should not be used",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "obsolete"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-4155",
+  "sqKey": "S4155",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "tsql"
+  ],
+  "allKeys": [
+    "S4155"
+  ],
+  "branch": "master"
+}

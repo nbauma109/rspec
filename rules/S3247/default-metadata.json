@@ -1,0 +1,31 @@
+{
+  "title": "Duplicate casts should not be made",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "performance"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Minor",
+  "ruleSpecification": "RSPEC-3247",
+  "sqKey": "S3247",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "csharp"
+  ],
+  "allKeys": [
+    "S3247"
+  ],
+  "branch": "master"
+}

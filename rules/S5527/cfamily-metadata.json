@@ -1,0 +1,80 @@
+{
+  "title": "Server hostnames should be verified during SSL/TLS connections",
+  "type": "VULNERABILITY",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "cwe",
+    "symbolic-execution",
+    "full-project",
+    "privacy",
+    "owasp-a6",
+    "ssl",
+    "owasp-a3"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Critical",
+  "ruleSpecification": "RSPEC-5527",
+  "sqKey": "S5527",
+  "scope": "Main",
+  "securityStandards": {
+    "CWE": [
+      297
+    ],
+    "OWASP": [
+      "A3",
+      "A6"
+    ],
+    "OWASP Mobile": [
+      "M3"
+    ],
+    "MASVS": [
+      "MSTG-NETWORK-3"
+    ],
+    "OWASP Top 10 2021": [
+      "A2",
+      "A5",
+      "A7"
+    ]
+  },
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "abap",
+    "apex",
+    "cfamily",
+    "cobol",
+    "css",
+    "flex",
+    "go",
+    "html",
+    "java",
+    "javascript",
+    "kotlin",
+    "php",
+    "pli",
+    "plsql",
+    "python",
+    "rpg",
+    "ruby",
+    "rust",
+    "scala",
+    "solidity",
+    "swift",
+    "tsql",
+    "vb6",
+    "xml"
+  ],
+  "allKeys": [
+    "S5527"
+  ],
+  "branch": "master"
+}

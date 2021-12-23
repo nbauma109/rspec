@@ -1,0 +1,36 @@
+{
+  "title": "\"Serializable\" classes should have a \"serialVersionUID\"",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "serialization",
+    "cert",
+    "pitfall"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Critical",
+  "ruleSpecification": "RSPEC-2057",
+  "sqKey": "S2057",
+  "scope": "All",
+  "securityStandards": {
+    "CERT": [
+      "SER00-J."
+    ]
+  },
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "java"
+  ],
+  "allKeys": [
+    "S2057"
+  ],
+  "branch": "master"
+}

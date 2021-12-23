@@ -1,0 +1,34 @@
+{
+  "title": "Label names should comply with a naming convention",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "convention"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Minor",
+  "ruleSpecification": "RSPEC-3222",
+  "sqKey": "S3222",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cfamily",
+    "csharp",
+    "flex",
+    "java"
+  ],
+  "allKeys": [
+    "S3222"
+  ],
+  "branch": "master"
+}

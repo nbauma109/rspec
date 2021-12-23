@@ -1,0 +1,27 @@
+{
+  "title": "Forms should be documented",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-1547",
+  "sqKey": "S1547",
+  "scope": "Main",
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "abap"
+  ],
+  "allKeys": [
+    "S1547"
+  ],
+  "branch": "master"
+}

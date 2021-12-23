@@ -1,0 +1,30 @@
+{
+  "title": "\"typedef\" names should be unique identifiers",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "based-on-misra",
+    "suspicious"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-802",
+  "sqKey": "S802",
+  "scope": "Main",
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cfamily"
+  ],
+  "allKeys": [
+    "S802"
+  ],
+  "branch": "master"
+}

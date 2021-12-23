@@ -1,0 +1,31 @@
+{
+  "title": "\"compareTo\" results should not be checked for specific values",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "unpredictable"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Minor",
+  "ruleSpecification": "RSPEC-2200",
+  "sqKey": "S2200",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "partial",
+  "all_languages": [
+    "java"
+  ],
+  "allKeys": [
+    "S2200"
+  ],
+  "branch": "master"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Only one method invocation is expected when testing checked exceptions",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "junit",
+    "tests"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Critical",
+  "ruleSpecification": "RSPEC-5783",
+  "sqKey": "S5783",
+  "scope": "Tests",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "java",
+    "php"
+  ],
+  "allKeys": [
+    "S5783"
+  ],
+  "branch": "master"
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Pseudo-element selectors should be valid",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "1min"
+  },
+  "tags": [],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-4660",
+  "sqKey": "S4660",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "css"
+  ],
+  "allKeys": [
+    "S4660"
+  ],
+  "branch": "master"
+}

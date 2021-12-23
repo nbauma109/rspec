@@ -1,0 +1,31 @@
+{
+  "title": "Redundant casts and non-null assertions should be avoided",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "1min"
+  },
+  "tags": [
+    "redundant"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Minor",
+  "ruleSpecification": "RSPEC-4325",
+  "sqKey": "S4325",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "javascript"
+  ],
+  "allKeys": [
+    "S4325"
+  ],
+  "branch": "master"
+}

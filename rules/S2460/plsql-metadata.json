@@ -1,0 +1,33 @@
+{
+  "title": "\"CASE\" should be used rather than \"DECODE\"",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "30min"
+  },
+  "tags": [
+    "obsolete"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "DecodeFunctionUsageCheck"
+    ]
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-2460",
+  "sqKey": "DecodeFunctionUsageCheck",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "plsql"
+  ],
+  "allKeys": [
+    "DecodeFunctionUsageCheck"
+  ],
+  "branch": "master"
+}

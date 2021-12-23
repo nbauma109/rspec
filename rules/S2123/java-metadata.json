@@ -1,0 +1,38 @@
+{
+  "title": "Values should not be uselessly incremented",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "unused"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-2123",
+  "sqKey": "S2123",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cfamily",
+    "csharp",
+    "flex",
+    "java",
+    "javascript",
+    "kotlin",
+    "php",
+    "swift"
+  ],
+  "allKeys": [
+    "S2123"
+  ],
+  "branch": "master"
+}

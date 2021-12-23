@@ -1,0 +1,38 @@
+{
+  "title": "Exceptions should follow a naming convention",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "30min"
+  },
+  "tags": [
+    "convention"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "NamingExceptionsCheck"
+    ]
+  },
+  "defaultSeverity": "Minor",
+  "ruleSpecification": "RSPEC-2490",
+  "sqKey": "S2490",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cfamily",
+    "csharp",
+    "java",
+    "plsql",
+    "swift"
+  ],
+  "allKeys": [
+    "S2490",
+    "NamingExceptionsCheck"
+  ],
+  "branch": "master"
+}

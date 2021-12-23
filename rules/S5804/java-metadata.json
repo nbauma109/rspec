@@ -1,0 +1,68 @@
+{
+  "title": "Allowing user enumeration is security-sensitive",
+  "type": "SECURITY_HOTSPOT",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "cwe",
+    "spring",
+    "owasp-a2"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-5804",
+  "sqKey": "S5804",
+  "scope": "All",
+  "securityStandards": {
+    "CWE": [
+      200
+    ],
+    "OWASP": [
+      "A2"
+    ],
+    "OWASP Top 10 2021": [
+      "A1"
+    ]
+  },
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "all_languages": [
+    "abap",
+    "apex",
+    "cfamily",
+    "cobol",
+    "csharp",
+    "css",
+    "flex",
+    "go",
+    "html",
+    "java",
+    "javascript",
+    "kotlin",
+    "php",
+    "pli",
+    "plsql",
+    "python",
+    "rpg",
+    "ruby",
+    "rust",
+    "scala",
+    "solidity",
+    "swift",
+    "tsql",
+    "vb6",
+    "vbnet",
+    "xml"
+  ],
+  "allKeys": [
+    "S5804"
+  ],
+  "branch": "master"
+}

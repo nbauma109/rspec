@@ -1,0 +1,32 @@
+{
+  "title": "Deserialization methods should be provided for \"OptionalField\" members",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "serialization"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-3926",
+  "sqKey": "S3926",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "csharp",
+    "vbnet"
+  ],
+  "allKeys": [
+    "S3926"
+  ],
+  "branch": "master"
+}

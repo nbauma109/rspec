@@ -1,0 +1,32 @@
+{
+  "title": "Line continuation characters '\\' should not be followed by trailing whitespace",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "PPBackslashNotLastCharacter"
+    ]
+  },
+  "defaultSeverity": "Minor",
+  "ruleSpecification": "RSPEC-1916",
+  "sqKey": "PPBackslashNotLastCharacter",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way",
+    "MISRA C++ 2008 recommended"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cfamily"
+  ],
+  "allKeys": [
+    "PPBackslashNotLastCharacter"
+  ],
+  "branch": "master"
+}

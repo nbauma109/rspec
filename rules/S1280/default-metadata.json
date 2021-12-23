@@ -1,0 +1,34 @@
+{
+  "title": "Paragraphs and statements should be indented consistently",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "2min"
+  },
+  "tags": [
+    "convention"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "IdentationCheck",
+      "COBOL.IdentationCheck"
+    ]
+  },
+  "defaultSeverity": "Minor",
+  "ruleSpecification": "RSPEC-1280",
+  "sqKey": "S1280",
+  "scope": "Main",
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cobol"
+  ],
+  "allKeys": [
+    "S1280",
+    "IdentationCheck",
+    "COBOL.IdentationCheck"
+  ],
+  "branch": "master"
+}

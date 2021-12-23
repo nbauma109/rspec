@@ -1,0 +1,29 @@
+{
+  "title": "<script>...</script> elements should not be nested",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "2mn"
+  },
+  "tags": [],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-4645",
+  "sqKey": "S4645",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "html"
+  ],
+  "allKeys": [
+    "S4645"
+  ],
+  "branch": "master"
+}

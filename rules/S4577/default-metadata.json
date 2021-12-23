@@ -1,0 +1,29 @@
+{
+  "title": "\"SYNCHRONIZE\" should not be used",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "performance"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Blocker",
+  "ruleSpecification": "RSPEC-4577",
+  "sqKey": "S4577",
+  "scope": "Main",
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "plsql"
+  ],
+  "allKeys": [
+    "S4577"
+  ],
+  "branch": "master"
+}

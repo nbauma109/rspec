@@ -1,0 +1,61 @@
+{
+  "title": "Configuring loggers is security-sensitive",
+  "type": "SECURITY_HOTSPOT",
+  "status": "ready",
+  "tags": [
+    "cwe",
+    "owasp-a10",
+    "sans-top25-porous",
+    "owasp-a3"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Critical",
+  "ruleSpecification": "RSPEC-4792",
+  "sqKey": "S4792",
+  "scope": "Main",
+  "securityStandards": {
+    "CWE": [
+      117,
+      532
+    ],
+    "OWASP": [
+      "A3",
+      "A10"
+    ],
+    "OWASP Top 10 2021": [
+      "A9"
+    ]
+  },
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "all_languages": [
+    "abap",
+    "apex",
+    "cfamily",
+    "cobol",
+    "csharp",
+    "flex",
+    "go",
+    "java",
+    "javascript",
+    "kotlin",
+    "php",
+    "python",
+    "rpg",
+    "ruby",
+    "rust",
+    "scala",
+    "swift",
+    "tsql",
+    "vb6",
+    "vbnet"
+  ],
+  "allKeys": [
+    "S4792"
+  ],
+  "branch": "master"
+}

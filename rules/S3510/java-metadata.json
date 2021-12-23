@@ -1,0 +1,29 @@
+{
+  "title": "\"HostnameVerifier.verify\" should not always return true",
+  "type": "VULNERABILITY",
+  "status": "deprecated",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [],
+  "extra": {
+    "replacementRules": [
+      "RSPEC-5527"
+    ],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Blocker",
+  "ruleSpecification": "RSPEC-3510",
+  "sqKey": "S3510",
+  "scope": "Main",
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "java"
+  ],
+  "allKeys": [
+    "S3510"
+  ],
+  "branch": "master"
+}

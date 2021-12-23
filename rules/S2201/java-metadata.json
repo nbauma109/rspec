@@ -1,0 +1,46 @@
+{
+  "title": "Return values from functions without side effects should not be ignored",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "cert"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-2201",
+  "sqKey": "S2201",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "securityStandards": {
+    "CERT": [
+      "EXP12-C.",
+      "EXP00-J."
+    ]
+  },
+  "all_languages": [
+    "cfamily",
+    "csharp",
+    "flex",
+    "html",
+    "java",
+    "javascript",
+    "php",
+    "python",
+    "swift",
+    "vbnet"
+  ],
+  "allKeys": [
+    "S2201"
+  ],
+  "branch": "master"
+}

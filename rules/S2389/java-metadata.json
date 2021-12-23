@@ -1,0 +1,36 @@
+{
+  "title": "Cycles during static initialization should be removed",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "20min"
+  },
+  "tags": [
+    "cert"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-2389",
+  "sqKey": "S2389",
+  "scope": "Main",
+  "securityStandards": {
+    "CERT": [
+      "DCL00-J."
+    ]
+  },
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "java"
+  ],
+  "allKeys": [
+    "S2389"
+  ],
+  "branch": "master"
+}

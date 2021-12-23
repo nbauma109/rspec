@@ -1,0 +1,37 @@
+{
+  "title": "Exceptions should not be created without being thrown",
+  "type": "BUG",
+  "status": "closed",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "2min"
+  },
+  "tags": [
+    "error-handling"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-3984",
+  "sqKey": "S3984",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cfamily",
+    "csharp",
+    "java",
+    "javascript",
+    "php",
+    "python",
+    "vbnet"
+  ],
+  "allKeys": [
+    "S3984"
+  ],
+  "branch": "master"
+}

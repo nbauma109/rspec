@@ -1,0 +1,35 @@
+{
+  "title": "Nullable subqueries should not be used in \"NOT IN\" conditions",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "20min"
+  },
+  "tags": [
+    "sql"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Critical",
+  "ruleSpecification": "RSPEC-3641",
+  "sqKey": "S3641",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "abap",
+    "pli",
+    "plsql",
+    "rpg",
+    "tsql"
+  ],
+  "allKeys": [
+    "S3641"
+  ],
+  "branch": "master"
+}

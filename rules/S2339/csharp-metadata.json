@@ -1,0 +1,33 @@
+{
+  "title": "Public constant members should not be used",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "pitfall"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "ConstantMember"
+    ]
+  },
+  "defaultSeverity": "Critical",
+  "ruleSpecification": "RSPEC-2339",
+  "sqKey": "S2339",
+  "scope": "All",
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "csharp",
+    "vbnet"
+  ],
+  "allKeys": [
+    "S2339",
+    "ConstantMember"
+  ],
+  "branch": "master"
+}

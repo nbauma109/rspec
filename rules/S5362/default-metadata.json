@@ -1,0 +1,29 @@
+{
+  "title": "Expressions within \"calc\" should be valid",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Critical",
+  "ruleSpecification": "RSPEC-5362",
+  "sqKey": "S5362",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "css"
+  ],
+  "allKeys": [
+    "S5362"
+  ],
+  "branch": "master"
+}

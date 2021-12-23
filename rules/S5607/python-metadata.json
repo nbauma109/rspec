@@ -1,0 +1,29 @@
+{
+  "title": "Operators should be used on compatible types",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "20min"
+  },
+  "tags": [],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Blocker",
+  "ruleSpecification": "RSPEC-5607",
+  "sqKey": "S5607",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "python"
+  ],
+  "allKeys": [
+    "S5607"
+  ],
+  "branch": "master"
+}

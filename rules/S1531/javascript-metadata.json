@@ -1,0 +1,29 @@
+{
+  "title": "HTML-style comments should not be used",
+  "type": "CODE_SMELL",
+  "status": "deprecated",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "HtmlComments"
+    ]
+  },
+  "defaultSeverity": "Minor",
+  "ruleSpecification": "RSPEC-1531",
+  "sqKey": "HtmlComments",
+  "scope": "Main",
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "javascript"
+  ],
+  "allKeys": [
+    "HtmlComments"
+  ],
+  "branch": "master"
+}

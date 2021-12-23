@@ -1,0 +1,32 @@
+{
+  "title": "\"<ctime>\" should not be used",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "4h"
+  },
+  "tags": [
+    "based-on-misra",
+    "lock-in"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "PPIncludeCtime"
+    ]
+  },
+  "defaultSeverity": "Critical",
+  "ruleSpecification": "RSPEC-1052",
+  "sqKey": "PPIncludeCtime",
+  "scope": "Main",
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cfamily"
+  ],
+  "allKeys": [
+    "PPIncludeCtime"
+  ],
+  "branch": "master"
+}

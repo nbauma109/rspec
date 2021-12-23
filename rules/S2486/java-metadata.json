@@ -1,0 +1,55 @@
+{
+  "title": "Exceptions should not be ignored",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "1h"
+  },
+  "tags": [
+    "cwe",
+    "error-handling",
+    "security",
+    "owasp-a10",
+    "suspicious"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "MaskedExceptionCheck"
+    ]
+  },
+  "defaultSeverity": "Minor",
+  "ruleSpecification": "RSPEC-2486",
+  "sqKey": "S2486",
+  "scope": "Main",
+  "securityStandards": {
+    "CWE": [
+      390
+    ],
+    "OWASP": [
+      "A10"
+    ],
+    "OWASP Top 10 2021": [
+      "A9"
+    ]
+  },
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cfamily",
+    "cobol",
+    "csharp",
+    "java",
+    "plsql",
+    "python",
+    "rpg"
+  ],
+  "allKeys": [
+    "S2486",
+    "MaskedExceptionCheck"
+  ],
+  "branch": "master"
+}

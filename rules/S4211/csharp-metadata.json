@@ -1,0 +1,40 @@
+{
+  "title": "Members should not have conflicting transparency annotations",
+  "type": "VULNERABILITY",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "owasp-a6",
+    "pitfall"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-4211",
+  "sqKey": "S4211",
+  "scope": "Main",
+  "securityStandards": {
+    "OWASP": [
+      "A6"
+    ],
+    "OWASP Top 10 2021": [
+      "A5"
+    ]
+  },
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "csharp"
+  ],
+  "allKeys": [
+    "S4211"
+  ],
+  "branch": "master"
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Variables should not be declared before they are relevant",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "brain-overload"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Minor",
+  "ruleSpecification": "RSPEC-1941",
+  "sqKey": "S1941",
+  "scope": "All",
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cfamily",
+    "csharp",
+    "flex",
+    "java",
+    "javascript",
+    "php",
+    "python",
+    "vb6",
+    "vbnet"
+  ],
+  "allKeys": [
+    "S1941"
+  ],
+  "branch": "master"
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Test methods should not be annotated with \"@isTest(SeeAllData=true)\"",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-5395",
+  "sqKey": "S5395",
+  "scope": "Tests",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "apex"
+  ],
+  "allKeys": [
+    "S5395"
+  ],
+  "branch": "master"
+}

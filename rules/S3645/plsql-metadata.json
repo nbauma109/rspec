@@ -1,0 +1,36 @@
+{
+  "title": "\"HAVING\" conditions should use aggregation",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "performance",
+    "sql"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-3645",
+  "sqKey": "S3645",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "abap",
+    "cobol",
+    "pli",
+    "plsql",
+    "rpg"
+  ],
+  "allKeys": [
+    "S3645"
+  ],
+  "branch": "master"
+}

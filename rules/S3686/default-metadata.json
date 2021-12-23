@@ -1,0 +1,29 @@
+{
+  "title": "Functions should not be called both with and without \"new\"",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "15min"
+  },
+  "tags": [],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-3686",
+  "sqKey": "S3686",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "javascript"
+  ],
+  "allKeys": [
+    "S3686"
+  ],
+  "branch": "master"
+}

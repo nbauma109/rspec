@@ -1,0 +1,36 @@
+{
+  "title": "Session id should not be used",
+  "type": "VULNERABILITY",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "15min"
+  },
+  "tags": [
+    "owasp-a2"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Critical",
+  "ruleSpecification": "RSPEC-2643",
+  "sqKey": "S2643",
+  "scope": "Main",
+  "securityStandards": {
+    "OWASP": [
+      "A2"
+    ]
+  },
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "csharp",
+    "java",
+    "php"
+  ],
+  "allKeys": [
+    "S2643"
+  ],
+  "branch": "master"
+}

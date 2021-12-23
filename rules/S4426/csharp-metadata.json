@@ -1,0 +1,59 @@
+{
+  "title": "Cryptographic keys should be robust",
+  "type": "VULNERABILITY",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "2min"
+  },
+  "tags": [
+    "cwe",
+    "privacy",
+    "owasp-a6",
+    "owasp-a3",
+    "owasp-m5"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Critical",
+  "ruleSpecification": "RSPEC-4426",
+  "sqKey": "S4426",
+  "scope": "Main",
+  "securityStandards": {
+    "CWE": [
+      326
+    ],
+    "OWASP": [
+      "A3",
+      "A6"
+    ],
+    "OWASP Mobile": [
+      "M5"
+    ],
+    "MASVS": [
+      "MSTG-CRYPTO-3"
+    ],
+    "OWASP Top 10 2021": [
+      "A2"
+    ]
+  },
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cfamily",
+    "csharp",
+    "java",
+    "javascript",
+    "kotlin",
+    "php",
+    "python"
+  ],
+  "allKeys": [
+    "S4426"
+  ],
+  "branch": "master"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "\"static\" parent class methods should not be shadowed",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "api-design",
+    "pitfall"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Minor",
+  "ruleSpecification": "RSPEC-3434",
+  "sqKey": "S3434",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "csharp",
+    "java"
+  ],
+  "allKeys": [
+    "S3434"
+  ],
+  "branch": "master"
+}

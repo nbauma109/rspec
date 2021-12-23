@@ -1,0 +1,30 @@
+{
+  "title": "\"sizeof\" should not be multiplied by another \"sizeof\"",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-3137",
+  "sqKey": "S3137",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way",
+    "MISRA C++ 2008 recommended"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cfamily"
+  ],
+  "allKeys": [
+    "S3137"
+  ],
+  "branch": "master"
+}

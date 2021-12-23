@@ -1,0 +1,30 @@
+{
+  "title": "Number patterns should be regular",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "suspicious"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Critical",
+  "ruleSpecification": "RSPEC-3937",
+  "sqKey": "S3937",
+  "scope": "All",
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "csharp",
+    "java"
+  ],
+  "allKeys": [
+    "S3937"
+  ],
+  "branch": "master"
+}

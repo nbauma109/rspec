@@ -1,0 +1,45 @@
+{
+  "title": "\"default\" clauses should be first or last",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "based-on-misra",
+    "misra-c2004",
+    "misra-c2012"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Critical",
+  "ruleSpecification": "RSPEC-4524",
+  "sqKey": "S4524",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way",
+    "MISRA C++ 2008 recommended"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "abap",
+    "apex",
+    "cfamily",
+    "cobol",
+    "csharp",
+    "flex",
+    "go",
+    "java",
+    "javascript",
+    "php",
+    "pli",
+    "rpg"
+  ],
+  "allKeys": [
+    "S4524"
+  ],
+  "branch": "master"
+}

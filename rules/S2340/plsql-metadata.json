@@ -1,0 +1,37 @@
+{
+  "title": "\"LOOP ... END LOOP;\" constructs should be avoided",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "1h"
+  },
+  "tags": [
+    "pitfall"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "LoopAvoidSimpleLoopCheck",
+      "DoLoopUsage"
+    ]
+  },
+  "defaultSeverity": "Critical",
+  "ruleSpecification": "RSPEC-2340",
+  "sqKey": "LoopAvoidSimpleLoopCheck",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "plsql",
+    "vbnet"
+  ],
+  "allKeys": [
+    "LoopAvoidSimpleLoopCheck",
+    "DoLoopUsage",
+    "S2340"
+  ],
+  "branch": "master"
+}

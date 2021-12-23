@@ -1,0 +1,31 @@
+{
+  "title": "Boxing and unboxing should not be immediately reversed",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "clumsy"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Minor",
+  "ruleSpecification": "RSPEC-2153",
+  "sqKey": "S2153",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "covered",
+  "all_languages": [
+    "java"
+  ],
+  "allKeys": [
+    "S2153"
+  ],
+  "branch": "master"
+}

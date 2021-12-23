@@ -1,0 +1,48 @@
+{
+  "title": "Loops should not be infinite",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "15min"
+  },
+  "tags": [
+    "cert"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Blocker",
+  "ruleSpecification": "RSPEC-2189",
+  "sqKey": "S2189",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "securityStandards": {
+    "CERT": [
+      "MSC01-J."
+    ]
+  },
+  "all_languages": [
+    "abap",
+    "cfamily",
+    "cobol",
+    "csharp",
+    "flex",
+    "java",
+    "javascript",
+    "kotlin",
+    "php",
+    "python",
+    "rpg",
+    "vb6",
+    "vbnet"
+  ],
+  "allKeys": [
+    "S2189"
+  ],
+  "branch": "master"
+}

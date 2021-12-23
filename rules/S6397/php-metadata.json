@@ -1,0 +1,28 @@
+{
+  "title": "Character classes in regular expressions should not contain only one character",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "regex"
+  ],
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-6397",
+  "sqKey": "S6397",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "php"
+  ],
+  "allKeys": [
+    "S6397"
+  ],
+  "prUrl": "https://github.com/SonarSource/rspec/pull/648",
+  "branch": "rule/add-RSPEC-S6397"
+}

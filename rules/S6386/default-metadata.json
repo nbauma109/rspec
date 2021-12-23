@@ -1,0 +1,26 @@
+{
+  "title": "FIXME",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [],
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-6386",
+  "sqKey": "S6386",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "java"
+  ],
+  "allKeys": [
+    "S6386"
+  ],
+  "prUrl": "https://github.com/SonarSource/rspec/pull/607",
+  "branch": "rule/add-RSPEC-S6386"
+}

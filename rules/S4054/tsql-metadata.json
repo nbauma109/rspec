@@ -1,0 +1,32 @@
+{
+  "title": "Queries that use \"TOP\" should have an \"ORDER BY\"",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "sql"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-4054",
+  "sqKey": "S4054",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cobol",
+    "tsql"
+  ],
+  "allKeys": [
+    "S4054"
+  ],
+  "branch": "master"
+}

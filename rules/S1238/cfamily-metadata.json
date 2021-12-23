@@ -1,0 +1,34 @@
+{
+  "title": "Pass by reference to const should be used for large input parameters",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "cppcoreguidelines",
+    "performance"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-1238",
+  "sqKey": "S1238",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way",
+    "MISRA C++ 2008 recommended"
+  ],
+  "quickfix": "partial",
+  "all_languages": [
+    "abap",
+    "cfamily"
+  ],
+  "allKeys": [
+    "S1238"
+  ],
+  "branch": "master"
+}

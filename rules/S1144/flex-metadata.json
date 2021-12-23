@@ -1,0 +1,47 @@
+{
+  "title": "Unused \"private\" functions should be removed",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "unused"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "UnusedPrivateMethod"
+    ]
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-1144",
+  "sqKey": "S1144",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "abap",
+    "apex",
+    "cfamily",
+    "csharp",
+    "flex",
+    "java",
+    "javascript",
+    "kotlin",
+    "php",
+    "python",
+    "scala",
+    "swift",
+    "vb6",
+    "vbnet"
+  ],
+  "allKeys": [
+    "S1144",
+    "UnusedPrivateMethod"
+  ],
+  "branch": "master"
+}

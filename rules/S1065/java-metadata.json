@@ -1,0 +1,45 @@
+{
+  "title": "Unused labels should be removed",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "2min"
+  },
+  "tags": [
+    "cert",
+    "unused"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "UnusedLabel"
+    ]
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-1065",
+  "sqKey": "S1065",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "securityStandards": {
+    "CERT": [
+      "MSC12-C."
+    ]
+  },
+  "all_languages": [
+    "cfamily",
+    "java",
+    "javascript",
+    "plsql",
+    "swift",
+    "tsql"
+  ],
+  "allKeys": [
+    "S1065",
+    "UnusedLabel"
+  ],
+  "branch": "master"
+}

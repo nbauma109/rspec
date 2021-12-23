@@ -1,0 +1,48 @@
+{
+  "title": "Generic exceptions should never be thrown",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "20min"
+  },
+  "tags": [
+    "cwe",
+    "error-handling",
+    "cppcoreguidelines",
+    "cert"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-112",
+  "sqKey": "S112",
+  "scope": "Main",
+  "securityStandards": {
+    "CERT": [
+      "ERR07-J."
+    ],
+    "CWE": [
+      397
+    ]
+  },
+  "defaultQualityProfiles": [
+    "Sonar way",
+    "MISRA C++ 2008 recommended"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cfamily",
+    "csharp",
+    "java",
+    "php",
+    "python",
+    "vbnet"
+  ],
+  "allKeys": [
+    "S112"
+  ],
+  "branch": "master"
+}

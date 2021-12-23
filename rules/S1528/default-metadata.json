@@ -1,0 +1,32 @@
+{
+  "title": "Array constructors should not be used",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "suspicious"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "ArrayAndObjectConstructors"
+    ]
+  },
+  "defaultSeverity": "Minor",
+  "ruleSpecification": "RSPEC-1528",
+  "sqKey": "S1528",
+  "scope": "Main",
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "javascript"
+  ],
+  "allKeys": [
+    "S1528",
+    "ArrayAndObjectConstructors"
+  ],
+  "branch": "master"
+}

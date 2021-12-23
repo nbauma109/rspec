@@ -1,0 +1,56 @@
+{
+  "title": "Functions should not have too many parameters",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "20min"
+  },
+  "tags": [
+    "brain-overload"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "ProcedureParameterCount",
+      "PlSql.FunctionAndProcedureExcessiveParameters",
+      "ExcessiveParameterList"
+    ]
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-107",
+  "sqKey": "S107",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "apex",
+    "cfamily",
+    "csharp",
+    "flex",
+    "go",
+    "java",
+    "javascript",
+    "kotlin",
+    "php",
+    "pli",
+    "plsql",
+    "python",
+    "rpg",
+    "ruby",
+    "scala",
+    "swift",
+    "tsql",
+    "vb6",
+    "vbnet"
+  ],
+  "allKeys": [
+    "S107",
+    "ProcedureParameterCount",
+    "PlSql.FunctionAndProcedureExcessiveParameters",
+    "ExcessiveParameterList"
+  ],
+  "branch": "master"
+}

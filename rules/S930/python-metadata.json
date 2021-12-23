@@ -1,0 +1,39 @@
+{
+  "title": "The number and name of arguments passed to a function should match its parameters",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "cwe"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Blocker",
+  "ruleSpecification": "RSPEC-930",
+  "sqKey": "S930",
+  "scope": "Main",
+  "securityStandards": {
+    "CWE": [
+      628
+    ]
+  },
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cfamily",
+    "javascript",
+    "php",
+    "python"
+  ],
+  "allKeys": [
+    "S930"
+  ],
+  "branch": "master"
+}

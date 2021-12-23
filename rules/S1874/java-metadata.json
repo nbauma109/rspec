@@ -1,0 +1,49 @@
+{
+  "title": "\"@Deprecated\" code should not be used",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "15min"
+  },
+  "tags": [
+    "cwe",
+    "obsolete",
+    "cert"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "CallToDeprecatedMethod"
+    ]
+  },
+  "defaultSeverity": "Minor",
+  "ruleSpecification": "RSPEC-1874",
+  "sqKey": "S1874",
+  "scope": "Main",
+  "securityStandards": {
+    "CERT": [
+      "MET02-J."
+    ],
+    "CWE": [
+      477
+    ]
+  },
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cfamily",
+    "csharp",
+    "java",
+    "javascript",
+    "kotlin",
+    "swift"
+  ],
+  "allKeys": [
+    "S1874",
+    "CallToDeprecatedMethod"
+  ],
+  "branch": "master"
+}

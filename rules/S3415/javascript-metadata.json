@@ -1,0 +1,36 @@
+{
+  "title": "Assertion arguments should be passed in the correct order",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "2min"
+  },
+  "tags": [
+    "tests",
+    "chai",
+    "suspicious"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-3415",
+  "sqKey": "S3415",
+  "scope": "Tests",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "csharp",
+    "java",
+    "javascript",
+    "php"
+  ],
+  "allKeys": [
+    "S3415"
+  ],
+  "branch": "master"
+}

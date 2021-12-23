@@ -1,0 +1,44 @@
+{
+  "title": "\"for\" loop stop conditions should be invariant",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "based-on-misra",
+    "pitfall"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "modified-counter-in-for-loop",
+      "ForLoopCounterChangedCheck"
+    ]
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-127",
+  "sqKey": "S127",
+  "scope": "All",
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cfamily",
+    "csharp",
+    "flex",
+    "go",
+    "java",
+    "javascript",
+    "php",
+    "swift",
+    "vb6",
+    "vbnet"
+  ],
+  "allKeys": [
+    "S127",
+    "modified-counter-in-for-loop",
+    "ForLoopCounterChangedCheck"
+  ],
+  "branch": "master"
+}

@@ -1,0 +1,30 @@
+{
+  "title": "One-way \"OperationContract\" methods should have \"void\" return type",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "15min"
+  },
+  "tags": [],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-3598",
+  "sqKey": "S3598",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "csharp",
+    "vbnet"
+  ],
+  "allKeys": [
+    "S3598"
+  ],
+  "branch": "master"
+}

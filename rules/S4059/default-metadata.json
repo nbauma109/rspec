@@ -1,0 +1,29 @@
+{
+  "title": "Property names should not match get methods",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "2min"
+  },
+  "tags": [
+    "confusing"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-4059",
+  "sqKey": "S4059",
+  "scope": "All",
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "csharp"
+  ],
+  "allKeys": [
+    "S4059"
+  ],
+  "branch": "master"
+}

@@ -1,0 +1,38 @@
+{
+  "title": "Servlets should not have mutable instance fields",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "30min"
+  },
+  "tags": [
+    "multi-threading",
+    "struts",
+    "cert"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-2226",
+  "sqKey": "S2226",
+  "scope": "Main",
+  "securityStandards": {
+    "CERT": [
+      "MSC11-J."
+    ]
+  },
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "java"
+  ],
+  "allKeys": [
+    "S2226"
+  ],
+  "branch": "master"
+}

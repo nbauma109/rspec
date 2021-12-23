@@ -1,0 +1,29 @@
+{
+  "title": "XML files should be valid",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "XmlSchemaCheck"
+    ]
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-2322",
+  "sqKey": "XmlSchemaCheck",
+  "scope": "Main",
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "xml"
+  ],
+  "allKeys": [
+    "XmlSchemaCheck"
+  ],
+  "branch": "master"
+}

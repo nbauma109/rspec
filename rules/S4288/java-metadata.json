@@ -1,0 +1,31 @@
+{
+  "title": "Spring components should use constructor injection",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Linear",
+    "linearDesc": "2min by injected field",
+    "linearFactor": "2min"
+  },
+  "tags": [
+    "spring",
+    "design"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-4288",
+  "sqKey": "S4288",
+  "scope": "Main",
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "java"
+  ],
+  "allKeys": [
+    "S4288"
+  ],
+  "branch": "master"
+}

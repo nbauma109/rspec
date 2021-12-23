@@ -1,0 +1,49 @@
+{
+  "title": "Server-side requests should not be vulnerable to forging attacks",
+  "type": "VULNERABILITY",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "30min"
+  },
+  "tags": [
+    "cwe",
+    "sans-top25-risky",
+    "owasp-a5"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-5144",
+  "sqKey": "S5144",
+  "scope": "Main",
+  "securityStandards": {
+    "CWE": [
+      20,
+      918
+    ],
+    "OWASP": [
+      "A5"
+    ],
+    "OWASP Top 10 2021": [
+      "A10"
+    ]
+  },
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "csharp",
+    "java",
+    "javascript",
+    "php",
+    "python"
+  ],
+  "allKeys": [
+    "S5144"
+  ],
+  "branch": "master"
+}

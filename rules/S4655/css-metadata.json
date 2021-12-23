@@ -1,0 +1,29 @@
+{
+  "title": "\"!important\" should not be used on \"keyframes\"",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "1min"
+  },
+  "tags": [],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-4655",
+  "sqKey": "S4655",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "css"
+  ],
+  "allKeys": [
+    "S4655"
+  ],
+  "branch": "master"
+}

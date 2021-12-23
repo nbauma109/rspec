@@ -1,0 +1,31 @@
+{
+  "title": "Positional and named arguments should not be mixed in invocations",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "20min"
+  },
+  "tags": [],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "PositionalAndNamedArgumentMixCheck"
+    ]
+  },
+  "defaultSeverity": "Critical",
+  "ruleSpecification": "RSPEC-2534",
+  "sqKey": "PositionalAndNamedArgumentMixCheck",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "plsql"
+  ],
+  "allKeys": [
+    "PositionalAndNamedArgumentMixCheck"
+  ],
+  "branch": "master"
+}

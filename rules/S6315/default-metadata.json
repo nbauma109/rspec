@@ -1,0 +1,27 @@
+{
+  "title": "The return value of functions returning \"Deferred\" should be used",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "20min"
+  },
+  "tags": [
+    "coroutines"
+  ],
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-6315",
+  "sqKey": "S6315",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "kotlin"
+  ],
+  "allKeys": [
+    "S6315"
+  ],
+  "branch": "master"
+}

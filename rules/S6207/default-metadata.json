@@ -1,0 +1,32 @@
+{
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "java16"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-6207",
+  "sqKey": "S6207",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "title": "Redundant constructors/methods should be avoided in records",
+  "all_languages": [
+    "java",
+    "kotlin"
+  ],
+  "allKeys": [
+    "S6207"
+  ],
+  "branch": "master"
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Files should not have too many lines",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "1h"
+  },
+  "tags": [
+    "brain-overload"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "FileLoc",
+      "FileLengthCheck",
+      "S00104"
+    ]
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-104",
+  "sqKey": "FileLengthCheck",
+  "scope": "All",
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "abap",
+    "apex",
+    "cfamily",
+    "csharp",
+    "flex",
+    "go",
+    "html",
+    "java",
+    "javascript",
+    "kotlin",
+    "php",
+    "pli",
+    "plsql",
+    "python",
+    "rpg",
+    "ruby",
+    "scala",
+    "swift",
+    "tsql",
+    "vb6",
+    "vbnet"
+  ],
+  "allKeys": [
+    "S104",
+    "FileLoc",
+    "FileLengthCheck",
+    "S00104"
+  ],
+  "branch": "master"
+}

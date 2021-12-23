@@ -1,0 +1,53 @@
+{
+  "title": "Creating cookies without the \"HttpOnly\" flag is security-sensitive",
+  "type": "SECURITY_HOTSPOT",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "cwe",
+    "sans-top25-insecure",
+    "privacy",
+    "owasp-a7"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Minor",
+  "ruleSpecification": "RSPEC-3330",
+  "sqKey": "S3330",
+  "scope": "Main",
+  "securityStandards": {
+    "CWE": [
+      1004
+    ],
+    "OWASP": [
+      "A7"
+    ],
+    "OWASP Top 10 2021": [
+      "A5"
+    ]
+  },
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "all_languages": [
+    "cfamily",
+    "csharp",
+    "java",
+    "javascript",
+    "kotlin",
+    "php",
+    "python",
+    "swift",
+    "vbnet",
+    "xml"
+  ],
+  "allKeys": [
+    "S3330"
+  ],
+  "branch": "master"
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Default column values should not be set explicitly in inserts",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "clumsy",
+    "sql"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Minor",
+  "ruleSpecification": "RSPEC-3620",
+  "sqKey": "S3620",
+  "scope": "Main",
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cobol"
+  ],
+  "allKeys": [
+    "S3620"
+  ],
+  "branch": "master"
+}

@@ -1,0 +1,32 @@
+{
+  "title": "Output parameters should be assigned",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "15min"
+  },
+  "tags": [
+    "pitfall"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-4196",
+  "sqKey": "S4196",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "plsql",
+    "tsql"
+  ],
+  "allKeys": [
+    "S4196"
+  ],
+  "branch": "master"
+}

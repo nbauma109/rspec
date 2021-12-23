@@ -1,0 +1,50 @@
+{
+  "title": "Octal values should not be used",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "based-on-misra",
+    "cert",
+    "pitfall"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "OctalConstantAndSequence",
+      "OctalNumber"
+    ]
+  },
+  "defaultSeverity": "Blocker",
+  "ruleSpecification": "RSPEC-1314",
+  "sqKey": "OctalConstantAndSequence",
+  "scope": "All",
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "securityStandards": {
+    "CERT": [
+      "DCL18-C.",
+      "DCL50-J."
+    ]
+  },
+  "all_languages": [
+    "cfamily",
+    "csharp",
+    "flex",
+    "go",
+    "java",
+    "javascript",
+    "php",
+    "python",
+    "ruby"
+  ],
+  "allKeys": [
+    "OctalConstantAndSequence",
+    "OctalNumber",
+    "S1314"
+  ],
+  "branch": "master"
+}

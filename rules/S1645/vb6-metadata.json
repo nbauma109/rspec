@@ -1,0 +1,35 @@
+{
+  "title": "The \"&\" operator should be used to concatenate strings",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "2min"
+  },
+  "tags": [
+    "suspicious"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "PlusForConcatenation"
+    ]
+  },
+  "defaultSeverity": "Critical",
+  "ruleSpecification": "RSPEC-1645",
+  "sqKey": "S1645",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "vb6",
+    "vbnet"
+  ],
+  "allKeys": [
+    "S1645",
+    "PlusForConcatenation"
+  ],
+  "branch": "master"
+}

@@ -1,0 +1,31 @@
+{
+  "title": "\"OCCURS DEPENDING ON\" should be used with a minimum value",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "pitfall"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-4882",
+  "sqKey": "S4882",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cobol"
+  ],
+  "allKeys": [
+    "S4882"
+  ],
+  "branch": "master"
+}

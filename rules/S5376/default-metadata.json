@@ -1,0 +1,29 @@
+{
+  "title": "Triggers should process records in bulk",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Blocker",
+  "ruleSpecification": "RSPEC-5376",
+  "sqKey": "S5376",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "apex"
+  ],
+  "allKeys": [
+    "S5376"
+  ],
+  "branch": "master"
+}

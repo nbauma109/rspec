@@ -1,0 +1,58 @@
+{
+  "title": "Control flow statements should not be nested too deeply",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "brain-overload"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "NestedIfDepth",
+      "NestedIf",
+      "too-deeply-nested-if-statements",
+      "COBOL.IfStatementNestedUsageCheck"
+    ]
+  },
+  "defaultSeverity": "Critical",
+  "ruleSpecification": "RSPEC-134",
+  "sqKey": "COBOL.IfStatementNestedUsageCheck",
+  "scope": "All",
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "abap",
+    "apex",
+    "cfamily",
+    "cobol",
+    "csharp",
+    "flex",
+    "go",
+    "java",
+    "javascript",
+    "kotlin",
+    "php",
+    "pli",
+    "plsql",
+    "python",
+    "rpg",
+    "ruby",
+    "scala",
+    "swift",
+    "tsql",
+    "vb6",
+    "vbnet"
+  ],
+  "allKeys": [
+    "S134",
+    "NestedIfDepth",
+    "NestedIf",
+    "too-deeply-nested-if-statements",
+    "COBOL.IfStatementNestedUsageCheck"
+  ],
+  "branch": "master"
+}

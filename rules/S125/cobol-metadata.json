@@ -1,0 +1,66 @@
+{
+  "title": "Sections of code should not be commented out",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "unused"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "COBOL.CommentedOutCodeCheck",
+      "AvoidCommentedOutCodeCheck",
+      "CommentedOutCodeLine",
+      "commented-code",
+      "CommentedCode"
+    ]
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-125",
+  "sqKey": "COBOL.CommentedOutCodeCheck",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "abap",
+    "apex",
+    "cfamily",
+    "cobol",
+    "csharp",
+    "flex",
+    "go",
+    "html",
+    "java",
+    "javascript",
+    "kotlin",
+    "php",
+    "pli",
+    "plsql",
+    "python",
+    "rpg",
+    "ruby",
+    "rust",
+    "scala",
+    "solidity",
+    "swift",
+    "tsql",
+    "vb6",
+    "vbnet",
+    "xml"
+  ],
+  "allKeys": [
+    "S125",
+    "COBOL.CommentedOutCodeCheck",
+    "AvoidCommentedOutCodeCheck",
+    "CommentedOutCodeLine",
+    "commented-code",
+    "CommentedCode"
+  ],
+  "branch": "master"
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Cursors should not be opened inside loops",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "1h"
+  },
+  "tags": [
+    "leak",
+    "performance",
+    "sql"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "CursorOpenedInsideLoopCheck",
+      "SQL.CursorOpenedInsideLoopCheck"
+    ]
+  },
+  "defaultSeverity": "Critical",
+  "ruleSpecification": "RSPEC-1283",
+  "sqKey": "SQL.CursorOpenedInsideLoopCheck",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cobol"
+  ],
+  "allKeys": [
+    "SQL.CursorOpenedInsideLoopCheck",
+    "CursorOpenedInsideLoopCheck"
+  ],
+  "branch": "master"
+}

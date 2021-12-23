@@ -1,0 +1,38 @@
+{
+  "title": "\"InterruptedException\" should not be ignored",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "15min"
+  },
+  "tags": [
+    "cwe",
+    "error-handling",
+    "multi-threading"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-2142",
+  "sqKey": "S2142",
+  "scope": "Main",
+  "securityStandards": {
+    "CWE": [
+      391
+    ]
+  },
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "java"
+  ],
+  "allKeys": [
+    "S2142"
+  ],
+  "branch": "master"
+}

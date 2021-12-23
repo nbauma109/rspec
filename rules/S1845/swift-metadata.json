@@ -1,0 +1,38 @@
+{
+  "title": "Methods and field names should not be the same or differ only by capitalization",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "confusing"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Blocker",
+  "ruleSpecification": "RSPEC-1845",
+  "sqKey": "S1845",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cfamily",
+    "flex",
+    "java",
+    "javascript",
+    "php",
+    "python",
+    "swift",
+    "vbnet"
+  ],
+  "allKeys": [
+    "S1845"
+  ],
+  "branch": "master"
+}

@@ -1,0 +1,42 @@
+{
+  "title": "CASE should be used for sequences of simple tests",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "clumsy"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "ComplexIfShouldBeReplacedByCase"
+    ]
+  },
+  "defaultSeverity": "Minor",
+  "ruleSpecification": "RSPEC-2145",
+  "sqKey": "ComplexIfShouldBeReplacedByCase",
+  "scope": "Main",
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cfamily",
+    "cobol",
+    "csharp",
+    "flex",
+    "java",
+    "javascript",
+    "php",
+    "plsql",
+    "python",
+    "vb6",
+    "vbnet"
+  ],
+  "allKeys": [
+    "S2145",
+    "ComplexIfShouldBeReplacedByCase"
+  ],
+  "branch": "master"
+}

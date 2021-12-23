@@ -1,0 +1,39 @@
+{
+  "title": "Blocks should be synchronized on \"private final\" fields",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "15min"
+  },
+  "tags": [
+    "cwe",
+    "multi-threading"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-2445",
+  "sqKey": "S2445",
+  "scope": "All",
+  "securityStandards": {
+    "CWE": [
+      412,
+      413
+    ]
+  },
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "csharp",
+    "java"
+  ],
+  "allKeys": [
+    "S2445"
+  ],
+  "branch": "master"
+}

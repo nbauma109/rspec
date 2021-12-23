@@ -1,0 +1,33 @@
+{
+  "title": "\"FORALL\" should be used",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "2h"
+  },
+  "tags": [
+    "performance"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "UseForallStatementCheck"
+    ]
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-2564",
+  "sqKey": "UseForallStatementCheck",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "plsql"
+  ],
+  "allKeys": [
+    "UseForallStatementCheck"
+  ],
+  "branch": "master"
+}

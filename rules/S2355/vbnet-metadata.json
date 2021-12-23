@@ -1,0 +1,34 @@
+{
+  "title": "Array literals should be used instead of array creation expressions",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "2min"
+  },
+  "tags": [
+    "clumsy"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "LongArrayCreationSyntaxUsage"
+    ]
+  },
+  "defaultSeverity": "Minor",
+  "ruleSpecification": "RSPEC-2355",
+  "sqKey": "S2355",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "covered",
+  "all_languages": [
+    "vbnet"
+  ],
+  "allKeys": [
+    "S2355",
+    "LongArrayCreationSyntaxUsage"
+  ],
+  "branch": "master"
+}

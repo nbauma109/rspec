@@ -1,0 +1,29 @@
+{
+  "title": "\"INONLY\" or \"NONASSIGNABLE\" parameters should not be written to",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-4208",
+  "sqKey": "S4208",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "pli"
+  ],
+  "allKeys": [
+    "S4208"
+  ],
+  "branch": "master"
+}

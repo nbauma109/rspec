@@ -1,0 +1,55 @@
+{
+  "title": "Neither DES (Data Encryption Standard) nor DESede (3DES) should be used",
+  "type": "VULNERABILITY",
+  "status": "superseded",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "20min"
+  },
+  "tags": [
+    "cwe",
+    "cert",
+    "owasp-a6",
+    "sans-top25-porous"
+  ],
+  "extra": {
+    "replacementRules": [
+      "RSPEC-5547"
+    ],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Blocker",
+  "ruleSpecification": "RSPEC-2278",
+  "sqKey": "S2278",
+  "scope": "Main",
+  "securityStandards": {
+    "CERT": [
+      "MSC61-J."
+    ],
+    "CWE": [
+      326,
+      327
+    ],
+    "OWASP": [
+      "A6"
+    ],
+    "OWASP Top 10 2021": [
+      "A2"
+    ]
+  },
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cfamily",
+    "csharp",
+    "java",
+    "php",
+    "plsql",
+    "python",
+    "swift"
+  ],
+  "allKeys": [
+    "S2278"
+  ],
+  "branch": "master"
+}

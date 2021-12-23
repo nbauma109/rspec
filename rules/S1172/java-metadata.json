@@ -1,0 +1,59 @@
+{
+  "title": "Unused method parameters should be removed",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "cert",
+    "unused"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "UnusedFunctionArgument"
+    ]
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-1172",
+  "sqKey": "S1172",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "covered",
+  "securityStandards": {
+    "CERT": [
+      "MSC12-C."
+    ]
+  },
+  "all_languages": [
+    "apex",
+    "cfamily",
+    "csharp",
+    "flex",
+    "go",
+    "java",
+    "javascript",
+    "kotlin",
+    "php",
+    "pli",
+    "plsql",
+    "python",
+    "rpg",
+    "ruby",
+    "rust",
+    "scala",
+    "swift",
+    "tsql",
+    "vb6",
+    "vbnet"
+  ],
+  "allKeys": [
+    "S1172",
+    "UnusedFunctionArgument"
+  ],
+  "branch": "master"
+}

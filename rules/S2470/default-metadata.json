@@ -1,0 +1,31 @@
+{
+  "title": "Improper constraint forms should not be used",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "30min"
+  },
+  "tags": [],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "ImproperConstraintUsageCheck"
+    ]
+  },
+  "defaultSeverity": "Blocker",
+  "ruleSpecification": "RSPEC-2470",
+  "sqKey": "ImproperConstraintUsageCheck",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "plsql"
+  ],
+  "allKeys": [
+    "ImproperConstraintUsageCheck"
+  ],
+  "branch": "master"
+}

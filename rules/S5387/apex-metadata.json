@@ -1,0 +1,29 @@
+{
+  "title": "\"getRecordTypeInfosByDeveloperName()\" should be used instead of \"getRecordTypeInfosByName()\"",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-5387",
+  "sqKey": "S5387",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "apex"
+  ],
+  "allKeys": [
+    "S5387"
+  ],
+  "branch": "master"
+}

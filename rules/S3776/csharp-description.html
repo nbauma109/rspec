@@ -1,0 +1,79 @@
+<div class="paragraph">
+<p>Cognitive Complexity is a measure of how hard the control flow of a method is to understand. Methods with high Cognitive Complexity will be difficult to maintain.</p>
+</div>
+<div class="sect1">
+<h2 id="_see">See</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://redirect.sonarsource.com/doc/cognitive-complexity.html">Cognitive Complexity</a></p>
+</li>
+</ul>
+</div>
+<hr/>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_implementation_specification">Implementation Specification</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>(visible only on this page)</p>
+</div>
+<div class="sect2">
+<h3 id="_message">Message</h3>
+<div class="paragraph">
+<p>Refactor this {0} to reduce its Cognitive Complexity from {1} to the {2} allowed.</p>
+</div>
+<div class="paragraph">
+<p>Where {0} is the name of the syntax being analyzed, {1} the cognitive complexity and {2} the maximum authorized complexity.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_parameters">Parameters</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>key = threshold</p>
+<div class="ulist">
+<ul>
+<li>
+<p>default: 15</p>
+</li>
+<li>
+<p>description: The maximum authorized complexity.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>key: propertyThreshold</p>
+<div class="ulist">
+<ul>
+<li>
+<p>default: 3</p>
+</li>
+<li>
+<p>description: The maximum authorized complexity in a property.</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_highlighting">Highlighting</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>primary: Method/function name</p>
+</li>
+<li>
+<p>secondary: Keywords &amp; operators that cause increments</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>

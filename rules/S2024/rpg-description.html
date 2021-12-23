@@ -1,0 +1,134 @@
+<div class="paragraph">
+<p>Shared coding conventions allow teams to collaborate effectively. Typing operation codes, keywords, specification codes, compiler directives and built-in functions in upper case makes them more immediately recognizable as such, thereby making the code easier to read.</p>
+</div>
+<div class="sect1">
+<h2 id="_noncompliant_code_example">Noncompliant Code Example</h2>
+<div class="sectionbody">
+<div class="listingblock">
+<div class="content">
+<pre>     c     test12        plist
+     c                   parm                    asdf01
+     c                   parm                    asdf02
+     c                   parm                    @pdq</pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>      /free
+        if x = *blank;
+          read a;
+        endif;
+      /end-free</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_compliant_solution">Compliant Solution</h2>
+<div class="sectionbody">
+<div class="listingblock">
+<div class="content">
+<pre>     C     test12        PLIST
+     C                   PARM                    asdf01
+     C                   PARM                    asdf02
+     C                   PARM                    @pdq</pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>      /free
+        IF x = *BLANK;
+          READ a;
+        ENDIF;
+      /end-free</pre>
+</div>
+</div>
+<hr/>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_implementation_specification">Implementation Specification</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>(visible only on this page)</p>
+</div>
+<div class="sect2">
+<h3 id="_message">Message</h3>
+<div class="paragraph">
+<p>Correct the case of "xxx".</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_parameters">Parameters</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>key = operationCodes</p>
+<div class="ulist">
+<ul>
+<li>
+<p>description: Whether or not to check the case of operation codes.</p>
+</li>
+<li>
+<p>default: true</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>key: keywords</p>
+<div class="ulist">
+<ul>
+<li>
+<p>description: Whether or not to check the case of keywords.</p>
+</li>
+<li>
+<p>default: true</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>key: specificationcodes</p>
+<div class="ulist">
+<ul>
+<li>
+<p>description: Whether or not to check the case of specification codes.</p>
+</li>
+<li>
+<p>default: false</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>key: compilerDirectives</p>
+<div class="ulist">
+<ul>
+<li>
+<p>description: Whether or not to check the case of compiler directives.</p>
+</li>
+<li>
+<p>default: false</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>key: builtInFunctions</p>
+<div class="ulist">
+<ul>
+<li>
+<p>description Whether or not to check the case of built-in functions</p>
+</li>
+<li>
+<p>default: false</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>

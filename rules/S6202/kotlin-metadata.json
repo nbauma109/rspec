@@ -1,0 +1,30 @@
+{
+  "title": "Operator \"is\" should be used instead of \"isInstance()\"",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-6202",
+  "sqKey": "S6202",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "java",
+    "kotlin"
+  ],
+  "allKeys": [
+    "S6202"
+  ],
+  "branch": "master"
+}

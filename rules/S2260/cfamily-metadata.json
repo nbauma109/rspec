@@ -1,0 +1,60 @@
+{
+  "title": "Track parsing failures",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "0min"
+  },
+  "tags": [
+    "suspicious"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "ParsingError",
+      "PlSql.ParsingError",
+      "ParseError",
+      "COBOL.ParsingErrorCheck"
+    ]
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-2260",
+  "sqKey": "ParsingError",
+  "scope": "All",
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "apex",
+    "cfamily",
+    "cloudformation",
+    "cobol",
+    "csharp",
+    "flex",
+    "go",
+    "java",
+    "javascript",
+    "kotlin",
+    "php",
+    "pli",
+    "plsql",
+    "python",
+    "rpg",
+    "ruby",
+    "scala",
+    "swift",
+    "terraform",
+    "tsql",
+    "vb6",
+    "xml"
+  ],
+  "allKeys": [
+    "S2260",
+    "ParsingError",
+    "PlSql.ParsingError",
+    "ParseError",
+    "COBOL.ParsingErrorCheck"
+  ],
+  "prUrl": "https://github.com/SonarSource/rspec/pull/663",
+  "branch": "rule/S2260-add-cloudformation"
+}

@@ -1,0 +1,54 @@
+{
+  "title": "Init-declarator-lists and member-declarator-lists should consist of single init-declarators and member-declarators respectively",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "convention",
+    "based-on-misra",
+    "cert"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "SingleDeclarationPerStatement",
+      "OneDeclarationPerLine"
+    ]
+  },
+  "defaultSeverity": "Minor",
+  "ruleSpecification": "RSPEC-1659",
+  "sqKey": "SingleDeclarationPerStatement",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way",
+    "MISRA C++ 2008 recommended"
+  ],
+  "quickfix": "unknown",
+  "securityStandards": {
+    "CERT": [
+      "DCL52-J.",
+      "DCL04-C."
+    ]
+  },
+  "all_languages": [
+    "cfamily",
+    "csharp",
+    "flex",
+    "go",
+    "java",
+    "javascript",
+    "swift",
+    "tsql",
+    "vb6",
+    "vbnet"
+  ],
+  "allKeys": [
+    "SingleDeclarationPerStatement",
+    "OneDeclarationPerLine",
+    "S1659"
+  ],
+  "branch": "master"
+}

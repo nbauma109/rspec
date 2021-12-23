@@ -1,0 +1,29 @@
+{
+  "title": "HTML autoescape mechanism should not be globally disabled",
+  "type": "VULNERABILITY",
+  "status": "deprecated",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [],
+  "extra": {
+    "replacementRules": [
+      "RSPEC-5247"
+    ],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Blocker",
+  "ruleSpecification": "RSPEC-5439",
+  "sqKey": "S5439",
+  "scope": "Main",
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "python"
+  ],
+  "allKeys": [
+    "S5439"
+  ],
+  "branch": "master"
+}

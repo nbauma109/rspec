@@ -1,0 +1,34 @@
+{
+  "title": "Non-standard characters should not occur in header file names in \"#include\" directives",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "based-on-misra"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "PPIncludeNonStandardCharacters"
+    ]
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-955",
+  "sqKey": "PPIncludeNonStandardCharacters",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way",
+    "MISRA C++ 2008 recommended"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cfamily"
+  ],
+  "allKeys": [
+    "PPIncludeNonStandardCharacters"
+  ],
+  "branch": "master"
+}

@@ -1,0 +1,50 @@
+{
+  "title": "Authorizations should be based on strong decisions",
+  "type": "VULNERABILITY",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "30min"
+  },
+  "tags": [
+    "cwe",
+    "owasp-a5"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-5808",
+  "sqKey": "S5808",
+  "scope": "Main",
+  "securityStandards": {
+    "CWE": [
+      285
+    ],
+    "OWASP": [
+      "A5"
+    ],
+    "OWASP Top 10 2021": [
+      "A1"
+    ]
+  },
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cfamily",
+    "csharp",
+    "java",
+    "javascript",
+    "kotlin",
+    "php",
+    "python",
+    "vbnet"
+  ],
+  "allKeys": [
+    "S5808"
+  ],
+  "branch": "master"
+}

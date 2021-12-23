@@ -1,0 +1,29 @@
+{
+  "title": "Operators should be overloaded consistently",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "pitfall"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-4050",
+  "sqKey": "S4050",
+  "scope": "All",
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "csharp"
+  ],
+  "allKeys": [
+    "S4050"
+  ],
+  "branch": "master"
+}

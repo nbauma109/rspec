@@ -1,0 +1,54 @@
+{
+  "title": "File uploads should be restricted",
+  "type": "VULNERABILITY",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "20min"
+  },
+  "tags": [
+    "cwe",
+    "sans-top25-insecure",
+    "cert",
+    "owasp-a4"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Critical",
+  "ruleSpecification": "RSPEC-2598",
+  "sqKey": "S2598",
+  "scope": "Main",
+  "securityStandards": {
+    "CERT": [
+      "IDS56-J."
+    ],
+    "CWE": [
+      434,
+      400
+    ],
+    "OWASP": [],
+    "OWASP Top 10 2021": [
+      "A4"
+    ]
+  },
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cfamily",
+    "flex",
+    "html",
+    "java",
+    "javascript",
+    "php",
+    "python",
+    "swift"
+  ],
+  "allKeys": [
+    "S2598"
+  ],
+  "branch": "master"
+}

@@ -1,0 +1,39 @@
+{
+  "title": "\"NULL\" should not be compared directly",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "sql"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "NullComparison"
+    ]
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-2527",
+  "sqKey": "NullComparison",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "abap",
+    "cobol",
+    "pli",
+    "plsql",
+    "rpg",
+    "tsql"
+  ],
+  "allKeys": [
+    "S2527",
+    "NullComparison"
+  ],
+  "branch": "master"
+}

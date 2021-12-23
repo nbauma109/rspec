@@ -1,0 +1,29 @@
+{
+  "title": "XML files containing a prolog header should start with \"<?xml\" characters",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "2min"
+  },
+  "tags": [],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Critical",
+  "ruleSpecification": "RSPEC-1778",
+  "sqKey": "S1778",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "xml"
+  ],
+  "allKeys": [
+    "S1778"
+  ],
+  "branch": "master"
+}

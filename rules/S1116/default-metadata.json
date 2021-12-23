@@ -1,0 +1,53 @@
+{
+  "title": "Empty statements should be removed",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "2min"
+  },
+  "tags": [
+    "based-on-misra",
+    "cert",
+    "unused"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "EmptyStatementUsageCheck"
+    ]
+  },
+  "defaultSeverity": "Minor",
+  "ruleSpecification": "RSPEC-1116",
+  "sqKey": "S1116",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way",
+    "MISRA C++ 2008 recommended"
+  ],
+  "quickfix": "unknown",
+  "securityStandards": {
+    "CERT": [
+      "MSC12-C.",
+      "MSC51-J.",
+      "EXP15-C."
+    ]
+  },
+  "all_languages": [
+    "cfamily",
+    "csharp",
+    "css",
+    "flex",
+    "go",
+    "java",
+    "javascript",
+    "php",
+    "tsql",
+    "vb6"
+  ],
+  "allKeys": [
+    "S1116",
+    "EmptyStatementUsageCheck"
+  ],
+  "branch": "master"
+}

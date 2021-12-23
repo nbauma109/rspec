@@ -1,0 +1,49 @@
+{
+  "title": "HTTP request redirections should not be open to forging attacks",
+  "type": "VULNERABILITY",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "30min"
+  },
+  "tags": [
+    "cwe",
+    "sans-top25-risky",
+    "owasp-a5"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Blocker",
+  "ruleSpecification": "RSPEC-5146",
+  "sqKey": "S5146",
+  "scope": "Main",
+  "securityStandards": {
+    "CWE": [
+      20,
+      601
+    ],
+    "OWASP": [
+      "A5"
+    ],
+    "OWASP Top 10 2021": [
+      "A1"
+    ]
+  },
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "csharp",
+    "java",
+    "javascript",
+    "php",
+    "python"
+  ],
+  "allKeys": [
+    "S5146"
+  ],
+  "branch": "master"
+}

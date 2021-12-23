@@ -1,0 +1,33 @@
+{
+  "title": "Flags enumerations should explicitly initialize all their members",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "FlagsEnumWithoutInitializer"
+    ]
+  },
+  "defaultSeverity": "Minor",
+  "ruleSpecification": "RSPEC-2345",
+  "sqKey": "S2345",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "csharp",
+    "vbnet"
+  ],
+  "allKeys": [
+    "S2345",
+    "FlagsEnumWithoutInitializer"
+  ],
+  "branch": "master"
+}

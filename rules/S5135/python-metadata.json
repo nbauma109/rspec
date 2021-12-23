@@ -1,0 +1,48 @@
+{
+  "title": "Deserialization should not be vulnerable to injection attacks",
+  "type": "VULNERABILITY",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "30min"
+  },
+  "tags": [
+    "cwe",
+    "sans-top25-risky",
+    "owasp-a8"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Blocker",
+  "ruleSpecification": "RSPEC-5135",
+  "sqKey": "S5135",
+  "scope": "Main",
+  "securityStandards": {
+    "CWE": [
+      20,
+      502
+    ],
+    "OWASP": [
+      "A8"
+    ],
+    "OWASP Top 10 2021": [
+      "A8"
+    ]
+  },
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "csharp",
+    "java",
+    "php",
+    "python"
+  ],
+  "allKeys": [
+    "S5135"
+  ],
+  "branch": "master"
+}

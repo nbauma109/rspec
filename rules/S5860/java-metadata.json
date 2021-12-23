@@ -1,0 +1,32 @@
+{
+  "title": "Names of regular expressions named groups should be used",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "regex"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-5860",
+  "sqKey": "S5860",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "java",
+    "javascript"
+  ],
+  "allKeys": [
+    "S5860"
+  ],
+  "branch": "master"
+}

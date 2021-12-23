@@ -1,0 +1,47 @@
+{
+  "title": "\"GoTo\" statements should not be used",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "brain-overload"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "Goto",
+      "GotoUsage",
+      "PlSql.Goto"
+    ]
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-907",
+  "sqKey": "S907",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cfamily",
+    "csharp",
+    "php",
+    "pli",
+    "plsql",
+    "python",
+    "rpg",
+    "tsql",
+    "vb6",
+    "vbnet"
+  ],
+  "allKeys": [
+    "GotoUsage",
+    "Goto",
+    "PlSql.Goto",
+    "S907"
+  ],
+  "branch": "master"
+}

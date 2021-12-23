@@ -1,0 +1,58 @@
+{
+  "title": "Database queries should not be vulnerable to injection attacks",
+  "type": "VULNERABILITY",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "30min"
+  },
+  "tags": [
+    "cwe",
+    "spring",
+    "owasp-a1",
+    "sans-top25-insecure",
+    "cert",
+    "hibernate",
+    "sql"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Blocker",
+  "ruleSpecification": "RSPEC-3649",
+  "sqKey": "S3649",
+  "scope": "Main",
+  "securityStandards": {
+    "CERT": [
+      "IDS00-J."
+    ],
+    "CWE": [
+      20,
+      89,
+      564,
+      943
+    ],
+    "OWASP": [
+      "A1"
+    ],
+    "OWASP Top 10 2021": [
+      "A3"
+    ]
+  },
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "csharp",
+    "java",
+    "javascript",
+    "php",
+    "python"
+  ],
+  "allKeys": [
+    "S3649"
+  ],
+  "branch": "master"
+}

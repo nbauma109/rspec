@@ -1,0 +1,48 @@
+{
+  "title": "Endpoints should not be vulnerable to reflected cross-site scripting (XSS) attacks",
+  "type": "VULNERABILITY",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "30min"
+  },
+  "tags": [
+    "cwe",
+    "sans-top25-insecure",
+    "owasp-a7"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Blocker",
+  "ruleSpecification": "RSPEC-5131",
+  "sqKey": "S5131",
+  "scope": "Main",
+  "securityStandards": {
+    "CWE": [
+      79
+    ],
+    "OWASP": [
+      "A7"
+    ],
+    "OWASP Top 10 2021": [
+      "A3"
+    ]
+  },
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "csharp",
+    "java",
+    "javascript",
+    "php",
+    "python"
+  ],
+  "allKeys": [
+    "S5131"
+  ],
+  "branch": "master"
+}

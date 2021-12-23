@@ -1,0 +1,31 @@
+{
+  "title": "The \"RELIES_ON\" clause should not be used",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "obsolete"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "ReliesOnClauseUsage"
+    ]
+  },
+  "defaultSeverity": "Minor",
+  "ruleSpecification": "RSPEC-1071",
+  "sqKey": "ReliesOnClauseUsage",
+  "scope": "Main",
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "plsql"
+  ],
+  "allKeys": [
+    "ReliesOnClauseUsage"
+  ],
+  "branch": "master"
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Deprecated code should be removed",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "obsolete"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Info",
+  "ruleSpecification": "RSPEC-1133",
+  "sqKey": "S1133",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cfamily",
+    "csharp",
+    "java",
+    "kotlin",
+    "swift"
+  ],
+  "allKeys": [
+    "S1133"
+  ],
+  "branch": "master"
+}

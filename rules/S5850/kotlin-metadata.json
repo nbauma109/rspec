@@ -1,0 +1,35 @@
+{
+  "title": "Alternatives in regular expressions should be grouped when used with anchors",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "regex"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-5850",
+  "sqKey": "S5850",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "java",
+    "javascript",
+    "kotlin",
+    "php",
+    "python"
+  ],
+  "allKeys": [
+    "S5850"
+  ],
+  "branch": "master"
+}

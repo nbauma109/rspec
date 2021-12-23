@@ -1,0 +1,39 @@
+{
+  "title": "Field names should comply with a naming convention",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "2min"
+  },
+  "tags": [
+    "convention"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Minor",
+  "ruleSpecification": "RSPEC-116",
+  "sqKey": "S116",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Drupal"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cfamily",
+    "csharp",
+    "flex",
+    "java",
+    "javascript",
+    "php",
+    "python",
+    "swift",
+    "vbnet"
+  ],
+  "allKeys": [
+    "S116"
+  ],
+  "branch": "master"
+}

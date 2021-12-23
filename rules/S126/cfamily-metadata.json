@@ -1,0 +1,61 @@
+{
+  "title": "\"if ... else if\" constructs should end with \"else\" clauses",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "based-on-misra",
+    "cert"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "ElseIfWithoutElse",
+      "missing-else-clause"
+    ]
+  },
+  "defaultSeverity": "Critical",
+  "ruleSpecification": "RSPEC-126",
+  "sqKey": "ElseIfWithoutElse",
+  "scope": "All",
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "securityStandards": {
+    "CERT": [
+      "MSC01-C.",
+      "MSC57-J."
+    ]
+  },
+  "all_languages": [
+    "abap",
+    "apex",
+    "cfamily",
+    "cobol",
+    "csharp",
+    "flex",
+    "go",
+    "java",
+    "javascript",
+    "kotlin",
+    "php",
+    "pli",
+    "plsql",
+    "python",
+    "rpg",
+    "ruby",
+    "scala",
+    "swift",
+    "tsql",
+    "vb6",
+    "vbnet"
+  ],
+  "allKeys": [
+    "S126",
+    "ElseIfWithoutElse",
+    "missing-else-clause"
+  ],
+  "branch": "master"
+}

@@ -1,0 +1,42 @@
+{
+  "title": "Control structures should use curly braces",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "2min"
+  },
+  "tags": [
+    "pitfall"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "CurlyBraces",
+      "DoEndUsageWithIfElse"
+    ]
+  },
+  "defaultSeverity": "Critical",
+  "ruleSpecification": "RSPEC-121",
+  "sqKey": "S121",
+  "scope": "All",
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cfamily",
+    "csharp",
+    "flex",
+    "java",
+    "javascript",
+    "kotlin",
+    "php",
+    "pli",
+    "tsql"
+  ],
+  "allKeys": [
+    "S121",
+    "CurlyBraces",
+    "DoEndUsageWithIfElse"
+  ],
+  "branch": "master"
+}

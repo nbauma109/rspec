@@ -1,0 +1,32 @@
+{
+  "title": "Line continuations should not be used",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "2min"
+  },
+  "tags": [
+    "convention"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "LineContinuationUsage"
+    ]
+  },
+  "defaultSeverity": "Minor",
+  "ruleSpecification": "RSPEC-2354",
+  "sqKey": "S2354",
+  "scope": "Main",
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "vbnet"
+  ],
+  "allKeys": [
+    "S2354",
+    "LineContinuationUsage"
+  ],
+  "branch": "master"
+}

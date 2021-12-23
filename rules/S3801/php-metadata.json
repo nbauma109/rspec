@@ -1,0 +1,34 @@
+{
+  "title": "Functions should use \"return\" consistently",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "20min"
+  },
+  "tags": [
+    "api-design",
+    "confusing"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-3801",
+  "sqKey": "S3801",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "javascript",
+    "php",
+    "python"
+  ],
+  "allKeys": [
+    "S3801"
+  ],
+  "branch": "master"
+}

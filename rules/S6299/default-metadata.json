@@ -1,0 +1,37 @@
+{
+  "title": "Disabling Vue.js built-in escaping is security-sensitive",
+  "type": "SECURITY_HOTSPOT",
+  "status": "ready",
+  "tags": [
+    "cwe",
+    "owasp-a7"
+  ],
+  "extra": {
+    "replacementRules": []
+  },
+  "defaultSeverity": "Blocker",
+  "ruleSpecification": "RSPEC-6299",
+  "sqKey": "S6299",
+  "scope": "Main",
+  "securityStandards": {
+    "CWE": [
+      79
+    ],
+    "OWASP": [
+      "A7"
+    ],
+    "OWASP Top 10 2021": [
+      "A3"
+    ]
+  },
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "all_languages": [
+    "javascript"
+  ],
+  "allKeys": [
+    "S6299"
+  ],
+  "branch": "master"
+}

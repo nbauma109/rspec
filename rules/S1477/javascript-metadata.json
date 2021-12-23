@@ -1,0 +1,48 @@
+{
+  "title": "Source files should not have any duplicated blocks",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Linear with offset",
+    "linearDesc": "per duplicate block",
+    "linearOffset": "10min",
+    "linearFactor": "10min"
+  },
+  "tags": [
+    "pitfall"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "DuplicatedBlocks"
+    ]
+  },
+  "defaultSeverity": "Critical",
+  "ruleSpecification": "RSPEC-1477",
+  "sqKey": "S1477",
+  "scope": "Main",
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "abap",
+    "cfamily",
+    "cobol",
+    "csharp",
+    "flex",
+    "java",
+    "javascript",
+    "php",
+    "pli",
+    "plsql",
+    "python",
+    "rpg",
+    "swift",
+    "vb6",
+    "vbnet"
+  ],
+  "allKeys": [
+    "S1477",
+    "DuplicatedBlocks"
+  ],
+  "branch": "master"
+}

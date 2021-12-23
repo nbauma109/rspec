@@ -1,0 +1,34 @@
+{
+  "title": "\"std::cmp_*\" functions must be used to compare signed and unsigned values",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "2min"
+  },
+  "tags": [
+    "since-c++20",
+    "symbolic-execution",
+    "bad-practice",
+    "pitfall"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-6214",
+  "sqKey": "S6214",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cfamily"
+  ],
+  "allKeys": [
+    "S6214"
+  ],
+  "branch": "master"
+}

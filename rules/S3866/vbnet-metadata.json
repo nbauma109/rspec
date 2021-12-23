@@ -1,0 +1,29 @@
+{
+  "title": "\"IIf\" should not be used",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "performance"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Critical",
+  "ruleSpecification": "RSPEC-3866",
+  "sqKey": "S3866",
+  "scope": "All",
+  "defaultQualityProfiles": [],
+  "quickfix": "covered",
+  "all_languages": [
+    "vbnet"
+  ],
+  "allKeys": [
+    "S3866"
+  ],
+  "branch": "master"
+}

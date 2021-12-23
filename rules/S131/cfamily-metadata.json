@@ -1,0 +1,73 @@
+{
+  "title": "\"switch\" statements should have \"default\" clauses",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "cwe",
+    "based-on-misra",
+    "cert"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "SwitchWithoutDefault",
+      "SelectWithoutOtherwise",
+      "SelectWithoutCaseElse",
+      "SwitchLastCaseIsDefaultCheck",
+      "switch-without-default",
+      "COBOL.EvaluateStatementUsageCheck"
+    ]
+  },
+  "defaultSeverity": "Critical",
+  "ruleSpecification": "RSPEC-131",
+  "sqKey": "SwitchWithoutDefault",
+  "scope": "All",
+  "securityStandards": {
+    "CERT": [
+      "MSC01-C."
+    ],
+    "CWE": [
+      478
+    ]
+  },
+  "defaultQualityProfiles": [
+    "Sonar way",
+    "MISRA C++ 2008 recommended"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "abap",
+    "apex",
+    "cfamily",
+    "cobol",
+    "csharp",
+    "flex",
+    "go",
+    "java",
+    "javascript",
+    "kotlin",
+    "php",
+    "pli",
+    "plsql",
+    "rpg",
+    "ruby",
+    "scala",
+    "tsql",
+    "vb6",
+    "vbnet"
+  ],
+  "allKeys": [
+    "S131",
+    "SwitchWithoutDefault",
+    "SelectWithoutOtherwise",
+    "SelectWithoutCaseElse",
+    "SwitchLastCaseIsDefaultCheck",
+    "switch-without-default",
+    "COBOL.EvaluateStatementUsageCheck"
+  ],
+  "branch": "master"
+}

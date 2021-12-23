@@ -1,0 +1,38 @@
+{
+  "title": "\"continue\" should not be used",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "1h"
+  },
+  "tags": [
+    "bad-practice"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "ExitInLoop",
+      "ContinueUsage",
+      "ContinueStatement"
+    ]
+  },
+  "defaultSeverity": "Minor",
+  "ruleSpecification": "RSPEC-909",
+  "sqKey": "S909",
+  "scope": "Main",
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cfamily",
+    "javascript",
+    "plsql"
+  ],
+  "allKeys": [
+    "ContinueUsage",
+    "ExitInLoop",
+    "ContinueStatement",
+    "S909"
+  ],
+  "branch": "master"
+}

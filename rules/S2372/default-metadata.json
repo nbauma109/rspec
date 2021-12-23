@@ -1,0 +1,36 @@
+{
+  "title": "Exceptions should not be thrown from property getters",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "20min"
+  },
+  "tags": [
+    "error-handling"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "ThrowFromPropertyGetter"
+    ]
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-2372",
+  "sqKey": "S2372",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "csharp",
+    "javascript",
+    "vbnet"
+  ],
+  "allKeys": [
+    "S2372",
+    "ThrowFromPropertyGetter"
+  ],
+  "branch": "master"
+}

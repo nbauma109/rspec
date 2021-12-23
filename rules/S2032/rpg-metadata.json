@@ -1,0 +1,30 @@
+{
+  "title": "Non-standard characters should not be used",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "lock-in",
+    "sql"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Minor",
+  "ruleSpecification": "RSPEC-2032",
+  "sqKey": "S2032",
+  "scope": "Main",
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "rpg"
+  ],
+  "allKeys": [
+    "S2032"
+  ],
+  "branch": "master"
+}

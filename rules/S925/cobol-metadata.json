@@ -1,0 +1,38 @@
+{
+  "title": "\"PERFORM\" calls should not be recursive",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "1d"
+  },
+  "tags": [
+    "unpredictable",
+    "bad-practice",
+    "pitfall"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "COBOL.RecursivePerformCheck"
+    ]
+  },
+  "defaultSeverity": "Critical",
+  "ruleSpecification": "RSPEC-925",
+  "sqKey": "COBOL.RecursivePerformCheck",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cfamily",
+    "cobol",
+    "swift"
+  ],
+  "allKeys": [
+    "S925",
+    "COBOL.RecursivePerformCheck"
+  ],
+  "branch": "master"
+}

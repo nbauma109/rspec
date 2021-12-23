@@ -1,0 +1,48 @@
+{
+  "title": "Track breaches of an XPath rule",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "XPath",
+      "xpath",
+      "XPathCheck",
+      "XPathCheckPlSql",
+      "COBOL.XPath"
+    ]
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-140",
+  "sqKey": "XPathCheck",
+  "scope": "Main",
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cfamily",
+    "cobol",
+    "csharp",
+    "flex",
+    "java",
+    "javascript",
+    "pli",
+    "plsql",
+    "python",
+    "vbnet",
+    "xml"
+  ],
+  "allKeys": [
+    "S140",
+    "XPath",
+    "xpath",
+    "XPathCheck",
+    "XPathCheckPlSql",
+    "COBOL.XPath"
+  ],
+  "branch": "master"
+}

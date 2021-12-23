@@ -1,0 +1,44 @@
+{
+  "title": "Enabling public network access to Azure resources is security-sensitive",
+  "type": "SECURITY_HOTSPOT",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "azure",
+    "cwe",
+    "owasp-a5"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-6392",
+  "sqKey": "S6392",
+  "scope": "Main",
+  "securityStandards": {
+    "CWE": [
+      668
+    ],
+    "OWASP": [
+      "A5"
+    ],
+    "OWASP Top 10 2021": [
+      "A1"
+    ]
+  },
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "all_languages": [
+    "terraform"
+  ],
+  "allKeys": [
+    "S6392"
+  ],
+  "prUrl": "https://github.com/SonarSource/rspec/pull/641",
+  "branch": "rule/add-RSPEC-S6392"
+}

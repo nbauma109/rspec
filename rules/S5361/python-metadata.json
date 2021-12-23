@@ -1,0 +1,34 @@
+{
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "2min"
+  },
+  "tags": [
+    "regex",
+    "performance"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Critical",
+  "ruleSpecification": "RSPEC-5361",
+  "sqKey": "S5361",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "title": "`str.replace` should be preferred to `re.sub`",
+  "all_languages": [
+    "java",
+    "php",
+    "python"
+  ],
+  "allKeys": [
+    "S5361"
+  ],
+  "branch": "master"
+}

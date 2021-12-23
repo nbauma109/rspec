@@ -1,0 +1,29 @@
+{
+  "title": "Sections should end with an empty paragraph",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "convention"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Minor",
+  "ruleSpecification": "RSPEC-1307",
+  "sqKey": "S1307",
+  "scope": "Main",
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cobol"
+  ],
+  "allKeys": [
+    "S1307"
+  ],
+  "branch": "master"
+}

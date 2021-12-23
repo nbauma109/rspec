@@ -1,0 +1,33 @@
+{
+  "title": "\"NOT NULL\" variables should be initialized",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "15min"
+  },
+  "tags": [],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "NotNullDeclarationWithoutInitializationCheck"
+    ]
+  },
+  "defaultSeverity": "Blocker",
+  "ruleSpecification": "RSPEC-2526",
+  "sqKey": "NotNullDeclarationWithoutInitializationCheck",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "java",
+    "plsql"
+  ],
+  "allKeys": [
+    "S2526",
+    "NotNullDeclarationWithoutInitializationCheck"
+  ],
+  "branch": "master"
+}

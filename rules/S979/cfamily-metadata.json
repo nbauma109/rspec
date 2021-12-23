@@ -1,0 +1,37 @@
+{
+  "title": "The names of standard library macros, objects and functions should not be reused",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "based-on-misra",
+    "cert",
+    "pitfall"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Critical",
+  "ruleSpecification": "RSPEC-979",
+  "sqKey": "S979",
+  "scope": "Main",
+  "securityStandards": {
+    "CERT": [
+      "DCL01-J."
+    ]
+  },
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cfamily",
+    "java"
+  ],
+  "allKeys": [
+    "S979"
+  ],
+  "branch": "master"
+}

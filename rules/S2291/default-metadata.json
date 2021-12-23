@@ -1,0 +1,31 @@
+{
+  "title": "Overflow checking should not be disabled for \"Enumerable.Sum\"",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "15min"
+  },
+  "tags": [
+    "error-handling"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Critical",
+  "ruleSpecification": "RSPEC-2291",
+  "sqKey": "S2291",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "csharp"
+  ],
+  "allKeys": [
+    "S2291"
+  ],
+  "branch": "master"
+}

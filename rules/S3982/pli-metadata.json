@@ -1,0 +1,29 @@
+{
+  "title": "Parentheses should be used in factored variable declarations",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-3982",
+  "sqKey": "S3982",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "pli"
+  ],
+  "allKeys": [
+    "S3982"
+  ],
+  "branch": "master"
+}

@@ -1,0 +1,36 @@
+{
+  "title": "Raw byte values should not be used in bitwise operations in combination with shifts",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "cert"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-3034",
+  "sqKey": "S3034",
+  "scope": "All",
+  "securityStandards": {
+    "CERT": [
+      "NUM52-J."
+    ]
+  },
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "java"
+  ],
+  "allKeys": [
+    "S3034"
+  ],
+  "branch": "master"
+}

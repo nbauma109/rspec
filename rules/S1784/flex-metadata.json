@@ -1,0 +1,31 @@
+{
+  "title": "Method visibility should be explicitly declared",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "2min"
+  },
+  "tags": [
+    "convention"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Minor",
+  "ruleSpecification": "RSPEC-1784",
+  "sqKey": "S1784",
+  "scope": "Main",
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "flex",
+    "java",
+    "php"
+  ],
+  "allKeys": [
+    "S1784"
+  ],
+  "branch": "master"
+}

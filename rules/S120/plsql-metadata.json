@@ -1,0 +1,36 @@
+{
+  "title": "Package names should comply with a naming convention",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "2h"
+  },
+  "tags": [
+    "convention"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "PlSql.PackageNaming"
+    ]
+  },
+  "defaultSeverity": "Minor",
+  "ruleSpecification": "RSPEC-120",
+  "sqKey": "PlSql.PackageNaming",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "flex",
+    "java",
+    "plsql"
+  ],
+  "allKeys": [
+    "S120",
+    "PlSql.PackageNaming"
+  ],
+  "branch": "master"
+}

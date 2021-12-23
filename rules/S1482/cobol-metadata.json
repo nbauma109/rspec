@@ -1,0 +1,47 @@
+{
+  "title": "Branches should have sufficient coverage by unit tests",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Linear",
+    "linearDesc": "per uncovered condition",
+    "linearFactor": "5min"
+  },
+  "tags": [
+    "bad-practice"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "InsufficientBranchCoverage"
+    ]
+  },
+  "defaultSeverity": "Critical",
+  "ruleSpecification": "RSPEC-1482",
+  "sqKey": "S1482",
+  "scope": "Main",
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "abap",
+    "cfamily",
+    "cobol",
+    "csharp",
+    "flex",
+    "java",
+    "javascript",
+    "php",
+    "pli",
+    "plsql",
+    "python",
+    "rpg",
+    "swift",
+    "vb6",
+    "vbnet"
+  ],
+  "allKeys": [
+    "S1482",
+    "InsufficientBranchCoverage"
+  ],
+  "branch": "master"
+}

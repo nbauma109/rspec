@@ -1,0 +1,29 @@
+{
+  "title": "LastModifiedDate should not be used as an upper-bound filter",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "30min"
+  },
+  "tags": [],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-5393",
+  "sqKey": "S5393",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "apex"
+  ],
+  "allKeys": [
+    "S5393"
+  ],
+  "branch": "master"
+}

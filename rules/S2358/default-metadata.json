@@ -1,0 +1,34 @@
+{
+  "title": "\"IsNot\" should be used instead of \"Not ... Is ...\"",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "clumsy"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "NotIsUsage"
+    ]
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-2358",
+  "sqKey": "S2358",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "covered",
+  "all_languages": [
+    "vbnet"
+  ],
+  "allKeys": [
+    "S2358",
+    "NotIsUsage"
+  ],
+  "branch": "master"
+}

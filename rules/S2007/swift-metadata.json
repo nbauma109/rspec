@@ -1,0 +1,34 @@
+{
+  "title": "Functions and variables should not be defined outside of classes",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "15min"
+  },
+  "tags": [
+    "design"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "VariableInPackageSpecificationCheck"
+    ]
+  },
+  "defaultSeverity": "Blocker",
+  "ruleSpecification": "RSPEC-2007",
+  "sqKey": "S2007",
+  "scope": "Main",
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "php",
+    "plsql",
+    "swift"
+  ],
+  "allKeys": [
+    "S2007",
+    "VariableInPackageSpecificationCheck"
+  ],
+  "branch": "master"
+}

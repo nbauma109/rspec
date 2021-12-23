@@ -1,0 +1,34 @@
+{
+  "title": "\"WHERE\" clauses should not contain redundant conditions",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "15min"
+  },
+  "tags": [
+    "sql"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-3650",
+  "sqKey": "S3650",
+  "scope": "All",
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "abap",
+    "cobol",
+    "pli",
+    "plsql",
+    "rpg",
+    "tsql"
+  ],
+  "allKeys": [
+    "S3650"
+  ],
+  "branch": "master"
+}

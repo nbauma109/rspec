@@ -1,0 +1,34 @@
+{
+  "title": "Global public variables should not be defined",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "2h"
+  },
+  "tags": [
+    "design"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "VariableInPackageSpecificationCheck"
+    ]
+  },
+  "defaultSeverity": "Blocker",
+  "ruleSpecification": "RSPEC-2007",
+  "sqKey": "VariableInPackageSpecificationCheck",
+  "scope": "Main",
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "php",
+    "plsql",
+    "swift"
+  ],
+  "allKeys": [
+    "S2007",
+    "VariableInPackageSpecificationCheck"
+  ],
+  "branch": "master"
+}

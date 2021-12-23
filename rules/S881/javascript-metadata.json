@@ -1,0 +1,36 @@
+{
+  "title": "Increment (++) and decrement (--) operators should not be used in a method call or mixed with other operators in an expression",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "IncAndDecMixedWithOtherOperators"
+    ]
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-881",
+  "sqKey": "S881",
+  "scope": "Main",
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cfamily",
+    "csharp",
+    "flex",
+    "java",
+    "javascript",
+    "php",
+    "swift"
+  ],
+  "allKeys": [
+    "IncAndDecMixedWithOtherOperators",
+    "S881"
+  ],
+  "branch": "master"
+}

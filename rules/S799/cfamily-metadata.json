@@ -1,0 +1,37 @@
+{
+  "title": "Identifiers should not be longer than 31 characters",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "based-on-misra",
+    "cert"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "IdentifierLongerThan31"
+    ]
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-799",
+  "sqKey": "IdentifierLongerThan31",
+  "scope": "Main",
+  "securityStandards": {
+    "CERT": [
+      "DCL23-C."
+    ]
+  },
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cfamily"
+  ],
+  "allKeys": [
+    "IdentifierLongerThan31"
+  ],
+  "branch": "master"
+}

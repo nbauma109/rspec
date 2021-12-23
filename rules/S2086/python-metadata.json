@@ -1,0 +1,50 @@
+{
+  "title": "Values passed to XQuery commands should be sanitized",
+  "type": "VULNERABILITY",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "20min"
+  },
+  "tags": [
+    "cwe",
+    "owasp-a1"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Blocker",
+  "ruleSpecification": "RSPEC-2086",
+  "sqKey": "S2086",
+  "scope": "Main",
+  "securityStandards": {
+    "CWE": [
+      652
+    ],
+    "OWASP": [
+      "A1"
+    ],
+    "OWASP Top 10 2021": [
+      "A3"
+    ]
+  },
+  "defaultQualityProfiles": [
+    "Sonar way",
+    "MISRA C++ 2008 recommended"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "cfamily",
+    "csharp",
+    "html",
+    "java",
+    "php",
+    "python",
+    "vbnet"
+  ],
+  "allKeys": [
+    "S2086"
+  ],
+  "branch": "master"
+}

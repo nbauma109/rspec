@@ -1,0 +1,34 @@
+{
+  "title": "The \"print\" statement should not be used",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "python3",
+    "obsolete"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "PrintStatementUsage"
+    ]
+  },
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-2320",
+  "sqKey": "PrintStatementUsage",
+  "scope": "Main",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "python"
+  ],
+  "allKeys": [
+    "PrintStatementUsage"
+  ],
+  "branch": "master"
+}

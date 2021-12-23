@@ -1,0 +1,32 @@
+{
+  "title": "A subclass should not be in the same \"catch\" clause as a parent class",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "1min"
+  },
+  "tags": [
+    "unused"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": []
+  },
+  "defaultSeverity": "Minor",
+  "ruleSpecification": "RSPEC-5713",
+  "sqKey": "S5713",
+  "scope": "All",
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "quickfix": "unknown",
+  "all_languages": [
+    "php",
+    "python"
+  ],
+  "allKeys": [
+    "S5713"
+  ],
+  "branch": "master"
+}

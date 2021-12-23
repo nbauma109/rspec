@@ -1,0 +1,48 @@
+{
+  "title": "Having dynamic clauses for SQL \"SELECT\" statements is security-sensitive",
+  "type": "SECURITY_HOTSPOT",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "1h"
+  },
+  "tags": [
+    "cwe",
+    "owasp-a1",
+    "sans-top25-insecure",
+    "sql"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "SQL.DynamicSqlCheck"
+    ]
+  },
+  "defaultSeverity": "Blocker",
+  "ruleSpecification": "RSPEC-1493",
+  "sqKey": "S1493",
+  "scope": "Main",
+  "securityStandards": {
+    "CWE": [
+      89
+    ],
+    "OWASP": [
+      "A1"
+    ],
+    "OWASP Top 10 2021": [
+      "A3"
+    ]
+  },
+  "defaultQualityProfiles": [
+    "Sonar way"
+  ],
+  "all_languages": [
+    "abap",
+    "cobol"
+  ],
+  "allKeys": [
+    "S1493",
+    "SQL.DynamicSqlCheck"
+  ],
+  "branch": "master"
+}

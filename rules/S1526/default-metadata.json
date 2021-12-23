@@ -1,0 +1,32 @@
+{
+  "title": "Variables declared with \"var\" should be declared before they are used",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "pitfall"
+  ],
+  "extra": {
+    "replacementRules": [],
+    "legacyKeys": [
+      "VariableDeclarationAfterUsage"
+    ]
+  },
+  "defaultSeverity": "Blocker",
+  "ruleSpecification": "RSPEC-1526",
+  "sqKey": "S1526",
+  "scope": "Main",
+  "defaultQualityProfiles": [],
+  "quickfix": "unknown",
+  "all_languages": [
+    "javascript"
+  ],
+  "allKeys": [
+    "S1526",
+    "VariableDeclarationAfterUsage"
+  ],
+  "branch": "master"
+}
